@@ -1,12 +1,12 @@
 import PageLayout from "../components/layout/PageLayout";
-import ServiceGrid from "../components/services/ServiceGrid";
-import { generalServices } from "../data/services";
+import OurServicesSection from "../components/services/OurServicesSection";
+import { laundryServices } from "../data/services";
 
 export default function ServicesPage() {
   return (
     <PageLayout
-      title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Services"
-      description="Pamar - Plumbing & Repair Service HTML Template"
+      title="Our Services - Makkah Laundry Center"
+      description="Premium laundry, dry cleaning, and garment care services in Makkah"
     >
 <div className="react-fragment">{/*==============================
     Breadcumb
@@ -27,34 +27,7 @@ export default function ServicesPage() {
       </div>
     </div>
   </div>
-  {/*==============================
-Service Area  
-==============================*/}
-  <section className="space" id="service-sec">
-    <div className="service-bg-shape1-1 shape-mockup" data-bottom={0} data-left="50%">
-      <img src="/assets/img/shape/bg-shape3.png" alt="img" />
-    </div>
-    <div className="container">
-      <div className="title-area style2 common-style-for-title ">
-        {/* row justify-content-center align-items-center */}
-        <div>
-          {/* col-xxl-6 col-xl-6 col-lg-6 */}
-          <div className=" ">
-            <div className="text-xxl-end text-xl-end text-lg-end text-start">
-              <span className="sub-title style2 after-none before-none" data-cue="slideInUp">OUR SERVICES</span>
-              <h2 className="sec-title style3 style7 mb-0" data-cue="slideInUp">We Provide Best Plumbing <br /> <span>Services for You</span></h2>
-            </div>
-          </div>
-          <div>
-            <div className="title-area-right text-start" data-cue="slideInUp">
-              <p className="mb-0">Our plumbing services are designed to provide fast, reliable, and long-lasting solutions for both residential and commercial needs. Whether it’s a leaky faucet, clogged drain, burst pipe,</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <ServiceGrid services={generalServices} />
-    </div>
-  </section>
+  <OurServicesSection services={laundryServices} />
   {/*==============================
 Contact Area   
 ==============================*/}

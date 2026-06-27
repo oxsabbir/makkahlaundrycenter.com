@@ -32,70 +32,12 @@ export function HomeOneChromeBefore() {
       </div>
       <div className="th-mobile-menu">
         <ul>
-          <li className="menu-item-has-children">
-            <a href="/">Home</a>
-            <ul className="sub-menu">
-              <li className="menu-item-has-children">
-                <a href="#">Multipage</a>
-                <ul className="sub-menu">
-                  <li><a href="/">Home General Plumbing</a></li>
-                  <li><a href="/home/emergency">Home Emergency Plumbing</a></li>
-                  <li><a href="/home/residential">Home Residential Plumbing</a></li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="#">Onepage</a>
-                <ul className="sub-menu">
-                  <li><a href="/home/general">Home General Plumbing</a></li>
-                  <li><a href="/home/emergency-one-page">Home Emergency Plumbing</a></li>
-                  <li><a href="/home/residential-one-page">Home Residential Plumbing</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Our Services</a></li>
           <li><a href="/about">About Us</a></li>
-          <li className="menu-item-has-children">
-            <a href="#">Services</a>
-            <ul className="sub-menu">
-              <li><a href="/services">Services</a></li>
-              <li><a href="/services/details">Service Details</a></li>
-            </ul>
-          </li>
-          <li className="menu-item-has-children">
-            <a href="#">Pages</a>
-            <ul className="sub-menu">
-              <li className="menu-item-has-children">
-                <a href="#">Shop</a>
-                <ul className="sub-menu">
-                  <li><a href="/shop">Shop</a></li>
-                  <li><a href="/shop/details">Shop Details</a></li>
-                  <li><a href="/cart">Cart Page</a></li>
-                  <li><a href="/checkout">Checkout</a></li>
-                  <li><a href="/wishlist">Wishlist</a></li>
-                </ul>
-              </li>
-              <li><a href="/projects">Project</a></li>
-              <li><a href="/projects/details">Project Details</a></li>
-              <li><a href="/team">Our Team</a></li>
-              <li><a href="/team/details">Team Details</a></li>
-              <li><a href="/work">Work</a></li>
-              <li><a href="/pricing">Pricing</a></li>
-              <li><a href="/testimonials">Testimonial</a></li>
-              <li><a href="/faq">FAQ'S Page</a></li>
-              <li><a href="/cost-calculation">Cost Calculation</a></li>
-              <li><a href="/404">Error Page</a></li>
-            </ul>
-          </li>
-          <li className="menu-item-has-children">
-            <a href="#">Blog</a>
-            <ul className="sub-menu">
-              <li><a href="/blog">Blog Standard</a></li>
-              <li><a href="/blog/details">Blog Details</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="/contact">Contact Us</a>
-          </li>
+          <li><a href="/faq">Faqs</a></li>
+          <li><a href="/testimonials">Testimonials</a></li>
+          <li><a href="/contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -240,96 +182,12 @@ export function HomeOneChromeHeader() {
             <div className="col-auto">
               <nav className="main-menu d-none d-lg-inline-block">
                 <ul>
-                  <li className="menu-item-has-children">
-                    <a href="/">Home</a>
-                    <ul className="mega-menu mega-menu-content allow-natural-scroll">
-                      <li>
-                        <div className="container">
-                          <div className="row gy-4">
-                            <div className="col-lg-4">
-                              <div className="mega-menu-box">
-                                <div className="mega-menu-img">
-                                  <img src="/assets/img/pages/index.jpg" alt="Home One" />
-                                  <div className="btn-wrap">
-                                    <a href="/" className="th-btn">Multipage</a>
-                                    <a href="/home/general" className="th-btn">Onepage</a>
-                                  </div>
-                                </div>
-                                <h3 className="mega-menu-title"><a href="/">Home General Plumbing</a></h3>
-                              </div>
-                            </div>
-                            <div className="col-lg-4">
-                              <div className="mega-menu-box">
-                                <div className="mega-menu-img">
-                                  <img src="/assets/img/pages/home-2.jpg" alt="Home Two" />
-                                  <div className="btn-wrap">
-                                    <a href="/home/emergency" className="th-btn">Multipage</a>
-                                    <a href="/home/emergency-one-page" className="th-btn">Onepage</a>
-                                  </div>
-                                </div>
-                                <h3 className="mega-menu-title"><a href="/home/emergency">Home Emergency Plumbing</a></h3>
-                              </div>
-                            </div>
-                            <div className="col-lg-4">
-                              <div className="mega-menu-box">
-                                <div className="mega-menu-img">
-                                  <img src="/assets/img/pages/home-3.jpg" alt="Home Three" />
-                                  <div className="btn-wrap">
-                                    <a href="/home/residential" className="th-btn">Multipage</a>
-                                    <a href="/home/residential-one-page" className="th-btn">Onepage</a>
-                                  </div>
-                                </div>
-                                <h3 className="mega-menu-title"><a href="/home/residential">Home Residential Plumbing</a></h3>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/services">Our Services</a></li>
                   <li><a href="/about">About Us</a></li>
-                  <li className="menu-item-has-children">
-                    <a href="#">Services</a>
-                    <ul className="sub-menu">
-                      <li><a href="/services">Services</a></li>
-                      <li><a href="/services/details">Service Details</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <a href="#">Pages</a>
-                    <ul className="sub-menu">
-                      <li className="menu-item-has-children">
-                        <a href="#">Shop</a>
-                        <ul className="sub-menu">
-                          <li><a href="/shop">Shop</a></li>
-                          <li><a href="/shop/details">Shop Details</a></li>
-                          <li><a href="/cart">Cart Page</a></li>
-                          <li><a href="/checkout">Checkout</a></li>
-                          <li><a href="/wishlist">Wishlist</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="/projects">Project</a></li>
-                      <li><a href="/projects/details">Project Details</a></li>
-                      <li><a href="/team">Our Team</a></li>
-                      <li><a href="/team/details">Team Details</a></li>
-                      <li><a href="/work">Work</a></li>
-                      <li><a href="/pricing">Pricing</a></li>
-                      <li><a href="/testimonials">Testimonial</a></li>
-                      <li><a href="/faq">FAQ'S Page</a></li>
-                      <li><a href="/cost-calculation">Cost Calculation</a></li>
-                      <li><a href="/404">Error Page</a></li>
-                    </ul>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <a href="#">Blog</a>
-                    <ul className="sub-menu">
-                      <li><a href="/blog">Blog Standard</a></li>
-                      <li><a href="/blog/details">Blog Details</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="/contact">Contact Us</a>
-                  </li>
+                  <li><a href="/faq">Faqs</a></li>
+                  <li><a href="/testimonials">Testimonials</a></li>
+                  <li><a href="/contact">Contact Us</a></li>
                 </ul>
               </nav>
               <div className="header-button d-flex d-lg-none">

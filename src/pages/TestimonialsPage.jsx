@@ -5,8 +5,8 @@ import { testimonials } from "../data/testimonials";
 export default function TestimonialsPage() {
   return (
     <PageLayout
-      title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Testimonial"
-      description="Pamar - Plumbing & Repair Service HTML Template"
+      title="Testimonials - Makkah Laundry Center"
+      description="See what our customers say about Makkah Laundry Center"
     >
 <div className="react-fragment">{/*==============================
     Breadcumb
@@ -33,16 +33,6 @@ Testimonial Area
   <section className="position-relative z-index-2 space">
     <div className="container">
       <TestimonialList testimonials={testimonials} />
-      <div className="row justify-content-center">
-        <div className="col-4">
-          <div className="text-center mt-60">
-            <a href="#" className="th-btn style3 loodingbtn">
-              Load More
-              <span className="after-bg" />
-            </a>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
   {/*==============================
@@ -63,15 +53,15 @@ Cta Area
           <div className="cta-wrap4" data-cue="slideInUp">
             <div className="title-area text-left mb-0">
               <span className="sub-title2 style3 bg-gray-color" data-cue="slideInUp">Get a Free Quote</span>
-              <h2 className="sec-title style6 text-anim2" data-cue="slideInUp">Having a <span>Plumbing</span><br /> Problem? We’ll Fixed it Today!</h2>
-              <p className="sec-text2" data-cue="slideInUp">Whereby is the super simple way to connect over. No apps, downloads, or long meeting links.</p>
+              <h2 className="sec-title style6 text-anim2" data-cue="slideInUp">Need <span>Professional</span><br /> Laundry Care? We've Got You Covered!</h2>
+              <p className="sec-text2" data-cue="slideInUp">Free pickup &amp; delivery across Makkah. Premium wash, dry cleaning, and ironing services tailored to your needs.</p>
               <div className="btn-group" data-cue="slideInUp">
                 <a href="/about" className="th-btn ">
                   Request a Quote
                   <span className="after-bg" />
                 </a>
                 <a href="/contact" className="th-btn style8 style11 style12">
-                  Book A Visiting
+                  Book a Pickup
                   <span className="after-bg" />
                 </a>
               </div>
@@ -87,150 +77,7 @@ Cta Area
       <img src="/assets/img/shape/cta-bg-shape.png" alt />
     </div>
   </div>
-  {/*==============================
-Brand Area  
-==============================*/}
-  <div className="overflow-hidden space brand-area-5 position-relative z-index-2">
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-xl-6">
-          <div className="title-area text-center">
-            <span className="sub-title2 style3 bg-gray-color " data-cue="slideInUp">Trusted Partners</span>
-            <h2 className="sec-title style6 text-anim2" data-cue="slideInUp">Our Trusted Partners</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="container-fluid">
-      <div className="brand-wrap5 ">
-        <div className="swiper th-slider" data-cue="slideInUp" id="brandSlider1" data-slider-options="{&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;}},
-       &quot;autoplay&quot;:{&quot;delay&quot;:0,&quot;disableOnInteraction&quot;:false},&quot;noSwiping&quot;:&quot;false&quot;,&quot;speed&quot;:6000,&quot;spaceBetween&quot;:125}">
-          <div className="swiper-wrapper">
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-1.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-2.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-3.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-4.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-5.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-6.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-1.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-2.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-3.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-4.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-5.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-6.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-1.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-2.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-3.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-4.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-5.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-6.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-1.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-2.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-3.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-4.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-5.svg" alt="Brand Logo" />
-              </a>
-            </div>
-            <div className="swiper-slide">
-              <a href="/blog" className="brand-box">
-                <img src="/assets/img/brand/brand3-6.svg" alt="Brand Logo" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
   {/*==============================
 	Footer Area
 ==============================*/}</div>
