@@ -5,7 +5,6 @@ import { generalServices } from "../data/services";
 export default function ServicesPage() {
   return (
     <PageLayout
-      variant="default"
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Services"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >

@@ -5,7 +5,6 @@ import { testimonials } from "../data/testimonials";
 export default function TestimonialsPage() {
   return (
     <PageLayout
-      variant="default"
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Testimonial"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >

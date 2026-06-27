@@ -3,7 +3,6 @@ import PageLayout from "../components/layout/PageLayout";
 export default function ServiceDetailsPage() {
   return (
     <PageLayout
-      variant="default"
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Service Single"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >

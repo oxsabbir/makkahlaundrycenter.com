@@ -3,7 +3,6 @@ import PageLayout from "../components/layout/PageLayout";
 export default function FaqPage() {
   return (
     <PageLayout
-      variant="default"
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - FAQ"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >

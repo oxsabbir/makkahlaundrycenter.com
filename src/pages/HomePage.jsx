@@ -5,7 +5,6 @@ import { laundryServices } from "../data/services";
 export default function HomePage() {
   return (
     <PageLayout
-      variant="homeOne"
       title="Makkah Laundry Center - Professional Laundry & Dry Cleaning Services"
       description="Makkah Laundry Center - Professional Laundry & Dry Cleaning Services"
     >

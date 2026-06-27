@@ -3,7 +3,6 @@ import PageLayout from "../components/layout/PageLayout";
 export default function EmergencyOnePage() {
   return (
     <PageLayout
-      variant="homeTwoPage"
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Home Two"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >
