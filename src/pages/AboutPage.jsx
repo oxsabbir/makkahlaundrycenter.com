@@ -19,18 +19,8 @@ export default function AboutPage() {
             <div className="row">
               <div className="col-xxl-12">
                 <div className="breadcumb-content">
-                  <h1
-                    className="breadcumb-title text-anim"
-                    data-cue="slideInUp"
-                    data-delay={100}
-                  >
-                    About Us{" "}
-                  </h1>
-                  <ul
-                    className="breadcumb-menu"
-                    data-cue="slideInUp"
-                    data-delay={300}
-                  >
+                  <h1 className="breadcumb-title ">About Us </h1>
+                  <ul className="breadcumb-menu">
                     <li>
                       <a href="/">Home</a>
                     </li>
@@ -53,7 +43,7 @@ About Area
                     <div className="text-center">
                       <span
                         className="sub-title style2 text-anim after-none before-none"
-                        data-cue="slideInUp"
+                        data-cue=""
                       >
                         Who we Are
                       </span>
@@ -63,7 +53,7 @@ About Area
                     <div className="text-center">
                       <h2
                         className="sec-title style2 text-anim2 mb-0"
-                        data-cue="slideInUp"
+                        data-cue=""
                       >
                         About Us
                       </h2>

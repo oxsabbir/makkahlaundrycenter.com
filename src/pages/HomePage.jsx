@@ -2,6 +2,36 @@ import PageLayout from "../components/layout/PageLayout";
 import OurServicesSection from "../components/services/OurServicesSection";
 import { laundryServices } from "../data/services";
 
+const heroSlides = [
+  {
+    bg: "/assets/img/hero/hero-center-1.webp",
+    subtitle: "Professional Laundry &amp; Dry Cleaning Services",
+    title: "Fresh &amp; Clean, Delivered to Your Door",
+    description:
+      "Free pickup &amp; delivery. Same-day turnaround. Premium care for all your fabrics — because your clothes deserve the best.",
+    btn1: { text: "Schedule a Pickup", href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time." },
+    btn2: { text: "Contact Us", href: "/contact" },
+  },
+  {
+    bg: "/assets/img/hero/hero-center-2.webp",
+    subtitle: "Expert Care for Every Fabric",
+    title: "Your Clothes Deserve the Best",
+    description:
+      "Eco-friendly washing, expert stain removal, and professional pressing — handled with care. We treat your garments like our own.",
+    btn1: { text: "Book Now", href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time." },
+    btn2: { text: "Get a Quote", href: "/contact" },
+  },
+  {
+    bg: "/assets/img/hero/hero_bg_1_1.jpg",
+    subtitle: "Premium Garment Care in Makkah",
+    title: "We Treat Every Fabric Like Family",
+    description:
+      "From delicate silks to everyday cotton — our trained professionals handle your wardrobe with the utmost care, precision, and love.",
+    btn1: { text: "Book a Pickup", href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time." },
+    btn2: { text: "Contact Us", href: "/contact" },
+  },
+];
+
 export default function HomePage() {
   return (
     <PageLayout
@@ -23,116 +53,61 @@ Hero Area
             data-slider-options='{"effect":"fade", "autoHeight": "true"}'
           >
             <div className="swiper-wrapper">
-              <div
-                className="swiper-slide"
-                data-bg-src="/assets/img/hero/hero_bg_1_1.jpg"
-              >
-                <div className="hero-inner">
-                  <div className="container">
-                    <div className="hero-style1">
-                      <span
-                        className="sub-title style5"
-                        data-ani="slideinup"
-                        data-ani-delay="0.2s"
-                      >
-                        {" "}
-                        Professional Laundry &amp; Dry Cleaning Services
-                      </span>
-                      <h1 className="hero-title text-white">
+              {heroSlides.map((slide, i) => (
+                <div
+                  key={i}
+                  className="swiper-slide"
+                  data-bg-src={slide.bg}
+                >
+                  <div className="hero-inner">
+                    <div className="container">
+                      <div className="hero-style1">
                         <span
-                          className="title1"
+                          className="sub-title style5"
                           data-ani="slideinup"
-                          data-ani-delay="0.4s"
+                          data-ani-delay="0.2s"
                         >
-                          Fresh &amp; Clean, Delivered to Your Door
+                          {slide.subtitle}
                         </span>
-                      </h1>
-                      <p
-                        className="hero-text text-white"
-                        data-ani="slideinup"
-                        data-ani-delay="0.6s"
-                      >
-                        Free pickup &amp; delivery. Same-day turnaround. Premium
-                        care for all your fabrics — because your clothes deserve
-                        the best.
-                      </p>
-                      <div
-                        className="btn-group"
-                        data-ani="slideinup"
-                        data-ani-delay="0.7s"
-                      >
-                        <a
-                          href="https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time."
-                          target="_blank"
-                          className="th-btn"
+                        <h1 className="hero-title text-white">
+                          <span
+                            className="title1"
+                            data-ani="slideinup"
+                            data-ani-delay="0.4s"
+                          >
+                            {slide.title}
+                          </span>
+                        </h1>
+                        <p
+                          className="hero-text text-white"
+                          data-ani="slideinup"
+                          data-ani-delay="0.6s"
                         >
-                          Schedule a Pickup
-                          <span className="after-bg" />
-                        </a>
-                        <a href="/contact" className="th-btn style2">
-                          Contact Us
-                          <span className="after-bg" />
-                        </a>
+                          {slide.description}
+                        </p>
+                        <div
+                          className="btn-group"
+                          data-ani="slideinup"
+                          data-ani-delay="0.7s"
+                        >
+                          <a
+                            href={slide.btn1.href}
+                            target="_blank"
+                            className="th-btn"
+                          >
+                            {slide.btn1.text}
+                            <span className="after-bg" />
+                          </a>
+                          <a href={slide.btn2.href} className="th-btn style2">
+                            {slide.btn2.text}
+                            <span className="after-bg" />
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                className="swiper-slide"
-                data-bg-src="/assets/img/hero/hero_bg_1_2.jpg"
-              >
-                <div className="hero-inner">
-                  <div className="container">
-                    <div className="hero-style1">
-                      <span
-                        className="sub-title style5"
-                        data-ani="slideinup"
-                        data-ani-delay="0.2s"
-                      >
-                        {" "}
-                        Expert Care for Every Fabric
-                      </span>
-                      <h1 className="hero-title text-white">
-                        <span
-                          className="title1"
-                          data-ani="slideinup"
-                          data-ani-delay="0.4s"
-                        >
-                          Your Clothes Deserve the Best
-                        </span>
-                      </h1>
-                      <p
-                        className="hero-text text-white"
-                        data-ani="slideinup"
-                        data-ani-delay="0.6s"
-                      >
-                        Eco-friendly washing, expert stain removal, and
-                        professional pressing — handled with care. We treat your
-                        garments like our own.
-                      </p>
-                      <div
-                        className="btn-group"
-                        data-ani="slideinup"
-                        data-ani-delay="0.7s"
-                      >
-                        <a
-                          href="https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time."
-                          target="_blank"
-                          className="th-btn"
-                        >
-                          Book Now
-                          <span className="after-bg" />
-                        </a>
-                        <a href="/contact" className="th-btn style2">
-                          Get a Quote
-                          <span className="after-bg" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
             <div className="icon-box">
               <button
