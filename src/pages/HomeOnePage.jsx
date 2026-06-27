@@ -1,4 +1,5 @@
 import PageLayout from "../components/layout/PageLayout";
+import FaqSection from "../components/sections/FaqSection";
 
 export default function HomeOnePage() {
   return (
@@ -1916,18 +1917,15 @@ Video Area
           <div className="video-wrap">
             <div className="row">
               <div className="col-lg-12">
-                <div
-                  className="video-thumb1-1 video-box-center"
-                  data-overlay="black"
-                  data-opacity={3}
-                >
-                  <img src="/assets/img/normal/video1-1.jpg" alt="img" />
-                  <a
-                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                    className="play-btn style2 popup-video"
-                  >
-                    <i className="fa-sharp fa-solid fa-play" />
-                  </a>
+                <div className="video-thumb1-1">
+                  <video
+                    src="/assets/video/demo-video-laundry.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "24px" }}
+                  />
                 </div>
               </div>
             </div>
@@ -2441,6 +2439,7 @@ Testimonial Area
             </div>
           </div>
         </section>
+        <FaqSection />
         {/*==============================
 Brand Area  
 ==============================*/}

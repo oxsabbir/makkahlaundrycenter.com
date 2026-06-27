@@ -23538,7 +23538,7 @@ span.select2-selection.select2-selection--single:focus {
   max-width: 550px;
 }
 .service-card.style2:hover {
-  background: var(--theme-color);
+  background: #003d9e;
 }
 .service-card.style2:hover .box-title a {
   color: var(--white-color);

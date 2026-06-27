@@ -1,10 +1,11 @@
 import PageLayout from "../components/layout/PageLayout";
+import FaqSection from "../components/sections/FaqSection";
 
 export default function FaqPage() {
   return (
     <PageLayout
-      title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - FAQ"
-      description="Pamar - Plumbing & Repair Service HTML Template"
+      title="Makkah Laundry Center - Frequently Asked Questions"
+      description="Find answers to common questions about Makkah Laundry Center services, pricing, pickup & delivery, and more."
     >
 <div className="react-fragment">{/*==============================
     Breadcumb
@@ -25,149 +26,7 @@ export default function FaqPage() {
       </div>
     </div>
   </div>
-  {/*==============================
-Faq Area
-==============================*/}
-  <div className="overflow-hidden faq-section space overflow-hidden position-relative z-index-2">
-    <div className="container">
-      <div className="row gy-40 justify-content-center">
-        <div className="col-xxl-5">
-          <div className="faq-wrap">
-            <div className="title-area text-left mb-0">
-              <span className="sub-title2 style3 bg-gray-color" data-cue="slideInUp">FAQs</span>
-              <h2 className="sec-title style6 text-anim2" data-cue="slideInUp">Your <span>Questions </span><br /> Answered</h2>
-              <p className="sec-text2" data-cue="slideInUp">In case you missed anything and had some more questions.</p>
-              <div className="btn-group " data-cue="slideInUp">
-                <a href="/contact" className="th-btn">Ask More Question<span className="after-bg" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-xxl-7 col-lg-7">
-          {/*==============================
-Faq Area
-==============================*/}
-          <div className="faq-wrap1">
-            <div className="accordion" id="faqAccordion">
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-1">
-                  <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Are you available for emergency plumbing issues?</button>
-                </div>
-                <div id="collapse-1" className="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-2">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Do you offer 24/7 customer support for plumbing services?</button>
-                </div>
-                <div id="collapse-2" className="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-3">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Can you provide a quote for a plumbing emergency?</button>
-                </div>
-                <div id="collapse-3" className="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-4">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">Do you have certified technicians for emergency plumbing?</button>
-                </div>
-                <div id="collapse-4" className="accordion-collapse collapse " aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-5">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">What types of plumbing emergencies do you handle?</button>
-                </div>
-                <div id="collapse-5" className="accordion-collapse collapse " aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-6">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">Is there a service fee for after-hours plumbing calls?</button>
-                </div>
-                <div id="collapse-6" className="accordion-collapse collapse " aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-7">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">How quickly can you respond to a plumbing emergency?</button>
-                </div>
-                <div id="collapse-7" className="accordion-collapse collapse " aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-8">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Do you provide warranties for your plumbing services?</button>
-                </div>
-                <div id="collapse-8" className="accordion-collapse collapse " aria-labelledby="collapse-item-8" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-9">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">What payment options are available for plumbing repairs?</button>
-                </div>
-                <div id="collapse-9" className="accordion-collapse collapse " aria-labelledby="collapse-item-9" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-10">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-10" aria-expanded="false" aria-controls="collapse-10">Are your plumbing services insured and licensed?</button>
-                </div>
-                <div id="collapse-10" className="accordion-collapse collapse " aria-labelledby="collapse-item-10" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="accordion-card style4 style5" data-cue="slideInUp">
-                <div className="accordion-header" id="collapse-item-11">
-                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-11" aria-expanded="false" aria-controls="collapse-11">Can you assist with plumbing issues outside of business hours?</button>
-                </div>
-                <div id="collapse-11" className="accordion-collapse collapse " aria-labelledby="collapse-item-11" data-bs-parent="#faqAccordion">
-                  <div className="accordion-body">
-                    <p className="faq-text">We offer a full range of services, including leak detection, drain cleaning, water heater installation, sewer line repair, pipe replacement, and emergency plumbing services.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="shape-mockup d-none d-xxl-inline" data-bottom={0} data-left="2%">
-      <img src="/assets/img/normal/faq-thumb4-1.png" alt="img" />
-    </div>
-  </div>
+  <FaqSection />
   {/*==============================
 Cta Area  
 ==============================*/}
@@ -186,15 +45,15 @@ Cta Area
           <div className="cta-wrap4" data-cue="slideInUp">
             <div className="title-area text-left mb-0">
               <span className="sub-title2 style3 bg-gray-color" data-cue="slideInUp">Get a Free Quote</span>
-              <h2 className="sec-title style6 text-anim2" data-cue="slideInUp">Having a <span>Plumbing</span><br /> Problem? We’ll Fixed it Today!</h2>
-              <p className="sec-text2" data-cue="slideInUp">Whereby is the super simple way to connect over. No apps, downloads, or long meeting links.</p>
+              <h2 className="sec-title style6 text-anim2" data-cue="slideInUp">Need <span>Laundry</span><br /> Care? We’ve Got You Covered!</h2>
+              <p className="sec-text2" data-cue="slideInUp">Professional laundry and dry cleaning services with free pickup and delivery across Makkah.</p>
               <div className="btn-group" data-cue="slideInUp">
-                <a href="/about" className="th-btn ">
-                  Request a Quote
+                <a href="https://wa.me/966569385700" className="th-btn ">
+                  Get Free Quote
                   <span className="after-bg" />
                 </a>
                 <a href="/contact" className="th-btn style8 style11 style12">
-                  Book A Visiting
+                  Contact Us
                   <span className="after-bg" />
                 </a>
               </div>

@@ -242,6 +242,12 @@
          max-width: 550px;
       }
 
+      .th-btn {
+         &::after {
+            display: none;
+         }
+      }
+
       &:hover {
          background: $theme-color;
 
@@ -259,6 +265,12 @@
                img {
                   filter: brightness(1) invert(1);
                }
+            }
+         }
+
+         .th-btn {
+            &:before {
+               background: $theme-color2;
             }
          }
       }

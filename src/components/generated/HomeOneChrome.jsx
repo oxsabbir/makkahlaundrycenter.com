@@ -53,13 +53,7 @@ export function HomeOneChromeBefore() {
       <button data-color="#FF7E02"><i className="fa-solid fa-droplet" /></button>
     </div>
   </div>
-  <div className="popup-search-box d-none d-lg-block">
-    <button className="searchClose"><i className="far fa-times" /></button>
-    <form action="#">
-      <input type="text" placeholder="What are you looking for?" />
-      <button type="submit"><i className="fal fa-search" /></button>
-    </form>
-  </div>
+
   {/*==============================
     Sidemenu
 ============================== */}
@@ -158,8 +152,6 @@ export function HomeOneChromeHeader() {
             <div className="social-links">
               <a href="https://www.facebook.com/"><i className="fab fa-facebook-f" /></a>
               <a href="https://www.twitter.com/"><i className="fab fa-twitter" /></a>
-              <a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in" /></a>
-              <a href="https://www.youtube.com/"><i className="fab fa-youtube" /></a>
               <a href="https://www.instagram.com/"><i className="fab fa-instagram" /></a>
               <a href="https://wa.me/966569385700" target="_blank"><i className="fab fa-whatsapp" /></a>
             </div>
@@ -196,7 +188,6 @@ export function HomeOneChromeHeader() {
             </div>
             <div className="col-auto d-xl-block d-none">
               <div className="header-button">
-                <button type="button" className="icon-btn style6 searchBoxToggler"><i className="far fa-search" /></button>
                 <a className="th-btn style6" href="https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time." target="_blank"><img src="/assets/img/icon/phone.svg" alt />WhatsApp: +966 56 938 5700</a>
                 <button type="button" className="icon-btn style6 sideMenuInfo"><i className="fa-solid fa-bars" /></button>
               </div>
@@ -246,8 +237,6 @@ export function HomeOneChromeFooter() {
                 <div className="th-social">
                   <a href="https://www.facebook.com/"><i className="fab fa-facebook-f" /></a>
                   <a href="https://www.twitter.com/"><i className="fab fa-twitter" /></a>
-                  <a href="https://www.youtube.com/"><i className="fab fa-youtube" /></a>
-                  <a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in" /></a>
                   <a href="https://www.instagram.com/"><i className="fa-brands fa-instagram" /></a>
                   <a href="https://wa.me/966569385700" target="_blank"><i className="fab fa-whatsapp" /></a>
                 </div>

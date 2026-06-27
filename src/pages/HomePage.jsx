@@ -1,3 +1,4 @@
+import { useState } from "react";
 import PageLayout from "../components/layout/PageLayout";
 import OurServicesSection from "../components/services/OurServicesSection";
 import { laundryServices } from "../data/services";
@@ -5,10 +6,12 @@ import { laundryServices } from "../data/services";
 const heroSlides = [
   {
     bg: "/assets/img/hero/hero-center-1.webp",
-    subtitle: "Trusted Laundry Service in Makkah",
-    title: "Fast Pickup. Fresh Delivery.",
+
+    subtitle: "Premium Garment Care",
+    title: "Clean Clothes, Zero Hassle.",
     description:
-      "Professional laundry care with doorstep pickup, hygienic cleaning, and on-time delivery for residents, hotels, and pilgrims across Makkah.",
+      "From everyday garments to delicate fabrics and Ihram, every item receives expert cleaning, careful finishing, and dependable delivery.",
+
     btn1: {
       text: "Book a Pickup",
       href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I'd%20like%20to%20book%20a%20laundry%20pickup.",
@@ -21,10 +24,11 @@ const heroSlides = [
 
   {
     bg: "/assets/img/hero/hero-center-2.webp",
-    subtitle: "Premium Garment Care",
-    title: "Clean Clothes, Zero Hassle.",
+
+    subtitle: "Trusted Laundry Service in Makkah",
+    title: "Fast Pickup. Fresh Delivery.",
     description:
-      "From everyday garments to delicate fabrics and Ihram, every item receives expert cleaning, careful finishing, and dependable delivery.",
+      "Professional laundry care with doorstep pickup, hygienic cleaning, and on-time delivery for residents, hotels, and pilgrims across Makkah.",
     btn1: {
       text: "Schedule Pickup",
       href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%20want%20to%20schedule%20a%20laundry%20pickup.",
@@ -53,6 +57,27 @@ const heroSlides = [
 ];
 
 export default function HomePage() {
+  const [formData, setFormData] = useState({
+    name: "",
+    hotel: "",
+    number: "",
+    subject: "",
+    message: "",
+    privacy: false,
+  });
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!formData.privacy) return;
+    const text = `Hi Makkah Laundry Center! I'd like to request a quote.%0A%0AName: ${encodeURIComponent(formData.name)}%0AHotel: ${encodeURIComponent(formData.hotel)}%0APhone: ${encodeURIComponent(formData.number)}%0AService: ${encodeURIComponent(formData.subject)}%0AMessage: ${encodeURIComponent(formData.message)}`;
+    window.open(`https://wa.me/966569385700?text=${text}`, "_blank");
+  };
+
   return (
     <PageLayout
       title="Makkah Laundry Center - Professional Laundry & Dry Cleaning Services"
@@ -490,50 +515,6 @@ Marquee Area
         </div>
         <OurServicesSection services={laundryServices} />
         {/*==============================
-Counter Area  
-==============================*/}
-        <div
-          className="counter-area-2 space overflow-hidden position-relative z-index-2"
-          data-bg-src="/assets/img/normal/funfact-img.jpg"
-        >
-          <div className="container">
-            <div className="counter-wrap2">
-              <div className="counter-card2" data-cue="slideInUp">
-                <div className="media-body">
-                  <h2 className="box-number">
-                    <span className="counter-number">98</span>%
-                  </h2>
-                  <p className="box-text">Happy Customers</p>
-                </div>
-              </div>
-              <div className="counter-card2" data-cue="slideInUp">
-                <div className="media-body">
-                  <h2 className="box-number">
-                    <span className="counter-number">52</span>k
-                  </h2>
-                  <p className="box-text">Garments Cleaned</p>
-                </div>
-              </div>
-              <div className="counter-card2" data-cue="slideInUp">
-                <div className="media-body">
-                  <h2 className="box-number">
-                    <span className="counter-number">2</span>K
-                  </h2>
-                  <p className="box-text">Expert Staff</p>
-                </div>
-              </div>
-              <div className="counter-card2" data-cue="slideInUp">
-                <div className="media-body">
-                  <h2 className="box-number">
-                    <span className="counter-number">1</span>k
-                  </h2>
-                  <p className="box-text">Daily Deliveries</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/*==============================
 Why Choose Us Area  
 ==============================*/}
         <div className="why-sec-1 overflow-hidden space  overflow-hidden">
@@ -771,18 +752,15 @@ Video Area
           <div className="video-wrap">
             <div className="row">
               <div className="col-lg-12">
-                <div
-                  className="video-thumb1-1 video-box-center"
-                  data-overlay="black"
-                  data-opacity={3}
-                >
-                  <img src="/assets/img/normal/video1-1.jpg" alt="img" />
-                  <a
-                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
-                    className="play-btn style2 popup-video"
-                  >
-                    <i className="fa-sharp fa-solid fa-play" />
-                  </a>
+                <div className="video-thumb1-1">
+                  <video
+                    src="/assets/video/demo-video-laundry.mp4"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "24px" }}
+                  />
                 </div>
               </div>
             </div>
@@ -816,7 +794,7 @@ Contact Area
                         Get In Touch
                       </span>
                       <h2 className="sec-title text-white">
-                        Get Your Free <span>Estimate!</span>
+                        Free Laundry Care <span>Estimate!</span>
                       </h2>
                     </div>
                     {/*==============================
@@ -824,9 +802,8 @@ Contact Area
 ==============================*/}
                     <div className="contact-form-v1 ">
                       <form
-                        action="/mail.php"
-                        method="POST"
-                        className="contact-form ajax-contact"
+                        onSubmit={handleSubmit}
+                        className="contact-form"
                       >
                         <div className="row">
                           <div className="form-group style-border col-md-6">
@@ -836,26 +813,33 @@ Contact Area
                               name="name"
                               id="name"
                               placeholder="Your name"
+                              value={formData.name}
+                              onChange={handleChange}
                             />
                             <i className="far fa-user" />
                           </div>
                           <div className="form-group style-border col-md-6">
                             <input
-                              type="email"
+                              type="text"
                               className="form-control"
-                              name="email"
-                              id="email"
-                              placeholder="Email Address"
+                              name="hotel"
+                              id="hotel"
+                              placeholder="Hotel Name"
+                              value={formData.hotel}
+                              onChange={handleChange}
                             />
-                            <i className="far fa-envelope" />
+                            <i className="far fa-building" />
                           </div>
+
                           <div className="form-group style-border col-md-6">
                             <input
-                              type="number"
+                              type="tel"
                               className="form-control"
                               name="number"
                               id="number"
                               placeholder="Phone Number"
+                              value={formData.number}
+                              onChange={handleChange}
                             />
                             <i className="far fa-phone" />
                           </div>
@@ -864,20 +848,18 @@ Contact Area
                               name="subject"
                               id="subject"
                               className="form-select bg-white"
+                              value={formData.subject}
+                              onChange={handleChange}
                             >
-                              <option value disabled selected hidden>
+                              <option value="" disabled hidden>
                                 Select Service
                               </option>
-                              <option value="Wash &amp; Fold">
-                                Wash &amp; Fold
-                              </option>
-                              <option value="Dry Cleaning">Dry Cleaning</option>
-                              <option value="Stain Removal">
-                                Stain Removal
-                              </option>
-                              <option value="Ironing &amp; Pressing">
-                                Ironing &amp; Pressing
-                              </option>
+                              <option value="Premium Dry Cleaning">Premium Dry Cleaning</option>
+                              <option value="Ironing And Pressing">Ironing And Pressing</option>
+                              <option value="Wash &amp; Fold Service">Wash &amp; Fold Service</option>
+                              <option value="Stain Removal">Stain Removal</option>
+                              <option value="Ihram Cleaning &amp; Care">Ihram Cleaning &amp; Care</option>
+                              <option value="Pickup &amp; Delivery Service">Pickup &amp; Delivery Service</option>
                             </select>
                           </div>
                           <div className="form-group style-border col-12">
@@ -888,13 +870,20 @@ Contact Area
                               rows={3}
                               className="form-control"
                               placeholder="Write Message...."
-                              defaultValue={""}
+                              value={formData.message}
+                              onChange={handleChange}
                             />
                             <i className="fa-light fa-pen" />
                           </div>
                           <div className="form-group col-12">
                             <div className="custom-checkbox">
-                              <input type="checkbox" id="remembermylogin" />
+                              <input
+                                type="checkbox"
+                                id="remembermylogin"
+                                name="privacy"
+                                checked={formData.privacy}
+                                onChange={handleChange}
+                              />
                               <label
                                 htmlFor="remembermylogin"
                                 className="text-white"
@@ -904,17 +893,15 @@ Contact Area
                             </div>
                           </div>
                           <div className="form-btn col-12">
-                            <a
-                              href="https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time."
-                              target="_blank"
+                            <button
+                              type="submit"
                               className="th-btn style5"
                             >
-                              Request A Quote
+                              Get Free Quote
                               <span className="after-bg" />
-                            </a>
+                            </button>
                           </div>
                         </div>
-                        <p className="form-messages mb-0 mt-3" />
                       </form>
                     </div>
                   </div>
@@ -984,7 +971,7 @@ Testimonial Area
                     data-mask-src="/assets/img/shape/testi-shape.png"
                   >
                     <img
-                      src="/assets/img/testimonial/testi-thumb1-1.jpg"
+                      src="/assets/img/testimonial/review-image.webp"
                       alt="img"
                     />
                   </div>
