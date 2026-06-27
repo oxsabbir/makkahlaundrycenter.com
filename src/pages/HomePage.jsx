@@ -5,30 +5,50 @@ import { laundryServices } from "../data/services";
 const heroSlides = [
   {
     bg: "/assets/img/hero/hero-center-1.webp",
-    subtitle: "Professional Laundry &amp; Dry Cleaning Services",
-    title: "Fresh &amp; Clean, Delivered to Your Door",
+    subtitle: "Trusted Laundry Service in Makkah",
+    title: "Fast Pickup. Fresh Delivery.",
     description:
-      "Free pickup &amp; delivery. Same-day turnaround. Premium care for all your fabrics — because your clothes deserve the best.",
-    btn1: { text: "Schedule a Pickup", href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time." },
-    btn2: { text: "Contact Us", href: "/contact" },
+      "Professional laundry care with doorstep pickup, hygienic cleaning, and on-time delivery for residents, hotels, and pilgrims across Makkah.",
+    btn1: {
+      text: "Book a Pickup",
+      href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I'd%20like%20to%20book%20a%20laundry%20pickup.",
+    },
+    btn2: {
+      text: "Our Services",
+      href: "/services",
+    },
   },
+
   {
     bg: "/assets/img/hero/hero-center-2.webp",
-    subtitle: "Expert Care for Every Fabric",
-    title: "Your Clothes Deserve the Best",
+    subtitle: "Premium Garment Care",
+    title: "Clean Clothes, Zero Hassle.",
     description:
-      "Eco-friendly washing, expert stain removal, and professional pressing — handled with care. We treat your garments like our own.",
-    btn1: { text: "Book Now", href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time." },
-    btn2: { text: "Get a Quote", href: "/contact" },
+      "From everyday garments to delicate fabrics and Ihram, every item receives expert cleaning, careful finishing, and dependable delivery.",
+    btn1: {
+      text: "Schedule Pickup",
+      href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%20want%20to%20schedule%20a%20laundry%20pickup.",
+    },
+    btn2: {
+      text: "Contact Us",
+      href: "/contact",
+    },
   },
+
   {
-    bg: "/assets/img/hero/hero_bg_1_1.jpg",
-    subtitle: "Premium Garment Care in Makkah",
-    title: "We Treat Every Fabric Like Family",
+    bg: "/assets/img/hero/hero-center-3.webp",
+    subtitle: "Laundry Near Masjid Al-Haram",
+    title: "Laundry That Fits Your Day.",
     description:
-      "From delicate silks to everyday cotton — our trained professionals handle your wardrobe with the utmost care, precision, and love.",
-    btn1: { text: "Book a Pickup", href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time." },
-    btn2: { text: "Contact Us", href: "/contact" },
+      "Quick booking, fabric-safe cleaning, professional pressing, and reliable same-day service designed around your busy schedule.",
+    btn1: {
+      text: "Book Now",
+      href: "https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I'd%20like%20to%20book%20your%20laundry%20service.",
+    },
+    btn2: {
+      text: "Learn More",
+      href: "/about",
+    },
   },
 ];
 
@@ -54,11 +74,7 @@ Hero Area
           >
             <div className="swiper-wrapper">
               {heroSlides.map((slide, i) => (
-                <div
-                  key={i}
-                  className="swiper-slide"
-                  data-bg-src={slide.bg}
-                >
+                <div key={i} className="swiper-slide" data-bg-src={slide.bg}>
                   <div className="hero-inner">
                     <div className="container">
                       <div className="hero-style1">
