@@ -3,8 +3,8 @@ import PageLayout from "../components/layout/PageLayout";
 export default function AboutPage() {
   return (
     <PageLayout
-      title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - About Us"
-      description="Pamar - Plumbing & Repair Service HTML Template"
+      title="About Us - Makkah Laundry Center"
+      description="Professional laundry care across Makkah with WhatsApp booking, hotel pickup, and careful garment handling."
     >
 <div className="react-fragment">{/*==============================
     Breadcumb
@@ -53,31 +53,31 @@ About Area
               </div>
               <div className="circle-tag d-none d-xxl-block">
                 <span className="circle-title-anime">** Years of Experience **Years of Experience</span>
-                <h2 className="box-number"><span className="counter-number">12</span><span className="counter-marker">+</span></h2>
+                <h2 className="box-number"><span className="counter-number">10</span><span className="counter-marker">+</span></h2>
               </div>
             </div>
           </div>
           <div className="col-xxl-6 col-xl-6 col-lg-6">
             <div className="about-wrap" data-cue="slideInUp">
               <div className="title-area mb-40">
-                <p>Our plumbing services are designed to provide fast, reliable, and long-lasting solutions for both residential and commercial needs. Whether it’s a leaky faucet, clogged drain, burst pipe, or a full plumbing installation, our team of licensed plumbers is equipped with the tools</p>
+                <p>Makkah Laundry Center provides professional garment care across Makkah, serving Umrah and Hajj pilgrims, hotel guests, residents, and businesses. From everyday wash-and-fold to delicate dry cleaning and special Ihram care, we handle every garment with attention and respect.</p>
               </div>
               <div className="checklist style">
                 <ul>
                   <li>
-                    emergency plumbing repairs
+                    Separate-order washing for each customer
                   </li>
                   <li>
-                    preventative maintenance.
+                    Perfume-free care for Ihram garments
                   </li>
                   <li>
-                    Customer satisfaction is our top priority
+                    Free pickup and delivery from your hotel or home
                   </li>
                 </ul>
               </div>
               <div className="btn-wrap mt-40">
-                <a href="/about" className="th-btn">
-                  Discover More
+                <a href="/services" className="th-btn">
+                  Our Services
                   <span className="after-bg" />
                 </a>
                 <div className="about-grid style2">
@@ -86,7 +86,7 @@ About Area
                   </div>
                   <div className="details">
                     <img className="about-grid_sign" src="/assets/img/normal/sign.png" alt="about" />
-                    <p className="about-grid_text">CEO, Of Company</p>
+                    <p className="about-grid_text">Makkah Laundry Center</p>
                   </div>
                 </div>
               </div>
@@ -130,9 +130,9 @@ Feature Area
               </div>
             </div>
             <div className="feature-card-details text-left">
-              <h3 className="box-title">Highly skilled team</h3>
-              <p className="box-text">Skilled, certified &amp; continuously educated plumbers voluptuous selenite antique corrupted.</p>
-              <a href="/blog" className="link-btn2">
+              <h3 className="box-title">Professional garment care</h3>
+              <p className="box-text">Each order is washed separately with care. We handle everything from everyday clothes to delicate fabrics, thobes, and abayas.</p>
+              <a href="/services" className="link-btn2">
                 <span>Learn More</span>
                 <div className="icon">
                 </div>
@@ -148,9 +148,9 @@ Feature Area
               </div>
             </div>
             <div className="feature-card-details text-left">
-              <h3 className="box-title">Fast and reliable</h3>
-              <p className="box-text">Skilled, certified &amp; continuously educated plumbers voluptuous selenite antique corrupted.</p>
-              <a href="/blog" className="link-btn2">
+              <h3 className="box-title">Fast &amp; reliable service</h3>
+              <p className="box-text">Quick turnaround with same-day and express options available. We respect your time and deliver when promised.</p>
+              <a href="/services" className="link-btn2">
                 <span>Learn More</span>
                 <div className="icon">
                 </div>
@@ -166,9 +166,9 @@ Feature Area
               </div>
             </div>
             <div className="feature-card-details text-left">
-              <h3 className="box-title">24/7 availability</h3>
-              <p className="box-text">Skilled, certified &amp; continuously educated plumbers voluptuous selenite antique corrupted.</p>
-              <a href="/blog" className="link-btn2">
+              <h3 className="box-title">Hotel &amp; home pickup</h3>
+              <p className="box-text">We pick up your laundry from your hotel or home in Makkah and deliver it back clean and folded — free of charge.</p>
+              <a href="/contact" className="link-btn2">
                 <span>Learn More</span>
                 <div className="icon">
                 </div>
@@ -193,20 +193,20 @@ Counter Area
         </div>
         <div className="counter-card2" data-cue="slideInUp">
           <div className="media-body">
-            <h2 className="box-number"><span className="counter-number">52</span>k</h2>
-            <p className="box-text">Complete Projects</p>
+            <h2 className="box-number"><span className="counter-number">10</span>K+</h2>
+            <p className="box-text">Orders Completed</p>
           </div>
         </div>
         <div className="counter-card2" data-cue="slideInUp">
           <div className="media-body">
-            <h2 className="box-number"><span className="counter-number">2</span>K</h2>
+            <h2 className="box-number"><span className="counter-number">25</span>+</h2>
             <p className="box-text">Professional Team</p>
           </div>
         </div>
         <div className="counter-card2" data-cue="slideInUp">
           <div className="media-body">
-            <h2 className="box-number"><span className="counter-number">1</span>k</h2>
-            <p className="box-text">Global Stores</p>
+            <h2 className="box-number"><span className="counter-number">15</span>+</h2>
+            <p className="box-text">Areas Covered</p>
           </div>
         </div>
       </div>
@@ -231,8 +231,8 @@ Process Area
               <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="process-card" data-cue="slideInUp">
                   <div className="box-content">
-                    <h3 className="box-title">Online Booking</h3>
-                    <p className="box-text">When booking, it helps customers when they are shown a calendar.</p>
+                    <h3 className="box-title">WhatsApp Booking</h3>
+                    <p className="box-text">Send us your laundry details, location, and preferred pickup time via WhatsApp. We confirm within minutes.</p>
                   </div>
                   <div className="box-thumb-wrap">
                     <div className="box-thumb">
@@ -247,8 +247,8 @@ Process Area
               <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="process-card" data-cue="slideInUp">
                   <div className="box-content">
-                    <h3 className="box-title">Inspect &amp; Analyze</h3>
-                    <p className="box-text">When booking, it helps customers when they are shown a calendar.</p>
+                    <h3 className="box-title">Collect &amp; Label</h3>
+                    <p className="box-text">Our driver picks up your garments, counts and labels each item, and notes any special instructions like perfume-free care.</p>
                   </div>
                   <div className="box-thumb-wrap">
                     <div className="box-thumb">
@@ -263,8 +263,8 @@ Process Area
               <div className="col-xl-4 col-lg-4 col-md-4">
                 <div className="process-card" data-cue="slideInUp">
                   <div className="box-content">
-                    <h3 className="box-title">Solving Problem</h3>
-                    <p className="box-text">When booking, it helps customers when they are shown a calendar.</p>
+                    <h3 className="box-title">Wash &amp; Deliver</h3>
+                    <p className="box-text">We clean, dry, iron, and fold with care. Your order is delivered back to your hotel or home, fresh and ready to wear.</p>
                   </div>
                   <div className="box-thumb-wrap">
                     <div className="box-thumb">
@@ -291,7 +291,7 @@ Team Area
           <div className="title-area text-center pt-1">
             <span className="sub-title style2 text-anim after-none before-none" data-cue="slideInLeft">Our Team</span>
             <h2 className="sec-title style3 text-anim2" data-cue="slideInLeft">
-              Meet Our Professional <br /> <span>Plumber Team.</span>
+              Meet Our <br /> <span>Laundry Team.</span>
             </h2>
           </div>
         </div>
@@ -306,7 +306,7 @@ Team Area
                 </div>
                 <div className="team-card-content">
                   <h3 className="box-title"><a href="/team/details">Michel Manthan</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
+                  <span className="team-desig">Laundry Specialist</span>
                 </div>
                 <div className="th-social">
                   <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
@@ -323,7 +323,7 @@ Team Area
                 </div>
                 <div className="team-card-content">
                   <h3 className="box-title"><a href="/team/details">Jenny William</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
+                  <span className="team-desig">Laundry Specialist</span>
                 </div>
                 <div className="th-social">
                   <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
@@ -340,7 +340,7 @@ Team Area
                 </div>
                 <div className="team-card-content">
                   <h3 className="box-title"><a href="/team/details">Daniel Thomas</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
+                  <span className="team-desig">Laundry Specialist</span>
                 </div>
                 <div className="th-social">
                   <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
@@ -350,91 +350,7 @@ Team Area
                 </div>
               </div>
             </div>
-            <div className="swiper-slide">
-              <div className="th-team team-card" data-cue="slideInUp">
-                <div className="team-img">
-                  <img src="/assets/img/team/team_1_4.jpg" alt="Team" />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="box-title"><a href="/team/details">Daniel Thomas</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
-                </div>
-                <div className="th-social">
-                  <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
-                  <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a>
-                  <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a>
-                  <a target="_blank" href="https://whatsapp.com/"><i className="fab fa-whatsapp" /></a>
-                </div>
-              </div>
-            </div>
-            <div className="swiper-slide">
-              <div className="th-team team-card" data-cue="slideInUp">
-                <div className="team-img">
-                  <img src="/assets/img/team/team_1_1.jpg" alt="Team" />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="box-title"><a href="/team/details">Michel Manthan</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
-                </div>
-                <div className="th-social">
-                  <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
-                  <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a>
-                  <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a>
-                  <a target="_blank" href="https://whatsapp.com/"><i className="fab fa-whatsapp" /></a>
-                </div>
-              </div>
-            </div>
-            <div className="swiper-slide">
-              <div className="th-team team-card" data-cue="slideInUp">
-                <div className="team-img">
-                  <img src="/assets/img/team/team_1_2.jpg" alt="Team" />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="box-title"><a href="/team/details">Jenny William</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
-                </div>
-                <div className="th-social">
-                  <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
-                  <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a>
-                  <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a>
-                  <a target="_blank" href="https://whatsapp.com/"><i className="fab fa-whatsapp" /></a>
-                </div>
-              </div>
-            </div>
-            <div className="swiper-slide">
-              <div className="th-team team-card" data-cue="slideInUp">
-                <div className="team-img">
-                  <img src="/assets/img/team/team_1_3.jpg" alt="Team" />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="box-title"><a href="/team/details">Daniel Thomas</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
-                </div>
-                <div className="th-social">
-                  <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
-                  <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a>
-                  <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a>
-                  <a target="_blank" href="https://whatsapp.com/"><i className="fab fa-whatsapp" /></a>
-                </div>
-              </div>
-            </div>
-            <div className="swiper-slide">
-              <div className="th-team team-card" data-cue="slideInUp">
-                <div className="team-img">
-                  <img src="/assets/img/team/team_1_4.jpg" alt="Team" />
-                </div>
-                <div className="team-card-content">
-                  <h3 className="box-title"><a href="/team/details">Daniel Thomas</a></h3>
-                  <span className="team-desig">Expert Plumber</span>
-                </div>
-                <div className="th-social">
-                  <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a>
-                  <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a>
-                  <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a>
-                  <a target="_blank" href="https://whatsapp.com/"><i className="fab fa-whatsapp" /></a>
-                </div>
-              </div>
-            </div>
+
           </div>
           <div className="slider-pagination-wrap ">
             <div className="slider-pagination2" />
@@ -446,7 +362,7 @@ Team Area
         <div className="row justify-content-center text-center">
           <div className="col-xl-4 col-lg-4 col-md-6 ">
             <a href="/team" className="circle-btn th-btn  mt-xl-0" data-cue="slideInUp">
-              Join With Us
+              View All Team
             </a>
           </div>
         </div>
@@ -468,7 +384,7 @@ Why Choose Us Area
               We Focus on <br />
               Customer <span>Satisfaction And Quality</span>
             </h2>
-            <p className="sec-text" data-cue="slideInUp">Our plumbing services are designed to provide fast, reliable, and long-lasting solutions for both residential and commercial needs.</p>
+            <p className="sec-text" data-cue="slideInUp">We focus on quality care for every garment — from everyday laundry to delicate fabrics, thobes, abayas, and Ihram. Our customers trust us because we treat their clothes with the same care we would our own.</p>
           </div>
         </div>
         <div className="col-xxl-6">
@@ -480,8 +396,8 @@ Why Choose Us Area
                     <img src="/assets/img/icon/why-icon1-1.svg" alt="why-icon" />
                   </div>
                   <div className="box-details">
-                    <h4 className="box-title">Licensed &amp; Certified Plumbers</h4>
-                    <p className="box-text">When it comes to plumbing, you need more than just.</p>
+                    <h4 className="box-title">Separate-Order Washing</h4>
+                    <p className="box-text">Every customer's laundry is washed separately to ensure hygiene and avoid mix-ups.</p>
                   </div>
                   <div className="skill-feature-wrap mt-60">
                     <div className="skill-feature">
@@ -500,8 +416,8 @@ Why Choose Us Area
                     <img src="/assets/img/icon/why-icon1-2.svg" alt="why-icon" />
                   </div>
                   <div className="box-details">
-                    <h4 className="box-title">Modern Tools &amp; Digital Technology</h4>
-                    <p className="box-text">When it comes to plumbing, you need more than just.</p>
+                    <h4 className="box-title">Perfume-Free Ihram Care</h4>
+                    <p className="box-text">We offer special fragrance-free washing for Ihram garments, respecting the requirements of Umrah and Hajj.</p>
                   </div>
                   <div className="skill-feature-wrap mt-60">
                     <div className="skill-feature">
@@ -520,8 +436,8 @@ Why Choose Us Area
                     <img src="/assets/img/icon/why-icon1-3.svg" alt="why-icon" />
                   </div>
                   <div className="box-details">
-                    <h4 className="box-title">Upfront Pricing with No Hidden Fees</h4>
-                    <p className="box-text">When it comes to plumbing, you need more than just.</p>
+                    <h4 className="box-title">Transparent Kg Pricing</h4>
+                    <p className="box-text">We charge by the kilogram with clear rates. No hidden fees, no surprises.</p>
                   </div>
                   <div className="skill-feature-wrap mt-60">
                     <div className="skill-feature">
@@ -540,8 +456,8 @@ Why Choose Us Area
                     <img src="/assets/img/icon/why-icon1-4.svg" alt="why-icon" />
                   </div>
                   <div className="box-details">
-                    <h4 className="box-title">Clean,&amp; Professional Workmanship</h4>
-                    <p className="box-text">When it comes to plumbing, you need more than just.</p>
+                    <h4 className="box-title">Free Hotel Pickup &amp; Delivery</h4>
+                    <p className="box-text">We pick up and deliver your laundry to your hotel or home across Makkah, at no extra cost.</p>
                   </div>
                   <div className="skill-feature-wrap mt-60">
                     <div className="skill-feature">
@@ -591,7 +507,7 @@ Testimonial Area
             </div>
             <div className="col-xl-6">
               <h2 className="sec-title style2 text-anim2 mb-0" data-cue="slideInLeft">Clients Say</h2>
-              <p className="sec-text" data-cue="slideInUp">Whether it’s a small repair or a major installation, our team of licensed and experienced plumber is committed to getting the job done right — the first time. We use modern tools</p>
+              <p className="sec-text" data-cue="slideInUp">Whether you are a pilgrim on Umrah, a hotel guest, or a Makkah resident, our team is committed to giving your clothes the care they deserve. We use quality products and handle every item with attention.</p>
             </div>
           </div>
         </div>
@@ -616,11 +532,11 @@ Testimonial Area
                     <div className="testi-card_review">
                       <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
                     </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
+                    <p className="box-text">“I used Makkah Laundry Center during my Umrah trip. They picked up my clothes from the hotel and delivered them back the same day, perfectly cleaned and folded. The Ihram was washed without any fragrance, just as I needed. Highly recommend.”</p>
                     <div className="testi-card-profile">
                       <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Michael Lacefield</h3>
-                        <p className="box-desig">Co-founder, XYZ</p>
+                        <h3 className="box-title">Ahmed Al-Rashid</h3>
+                        <p className="box-desig">Umrah Pilgrim</p>
                       </div>
                     </div>
                   </div>
@@ -630,11 +546,11 @@ Testimonial Area
                     <div className="testi-card_review">
                       <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
                     </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
+                    <p className="box-text">“I had my thobes and abayas dry cleaned here and they came back looking brand new. The pickup and delivery saved me so much time during my stay in Makkah.”</p>
                     <div className="testi-card-profile">
                       <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Harry Callum</h3>
-                        <p className="box-desig">Co-founder</p>
+                        <h3 className="box-title">Khalid Al-Otaibi</h3>
+                        <p className="box-desig">Hotel Guest</p>
                       </div>
                     </div>
                   </div>
@@ -644,11 +560,11 @@ Testimonial Area
                     <div className="testi-card_review">
                       <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
                     </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
+                    <p className="box-text">“I have been using Makkah Laundry Center for our family's laundry for months. They are consistent, affordable, and never mix up our clothes with others.”</p>
                     <div className="testi-card-profile">
                       <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Mason Robert</h3>
-                        <p className="box-desig">Co-founder, XYZ</p>
+                        <h3 className="box-title">Fatimah Hassan</h3>
+                        <p className="box-desig">Makkah Resident</p>
                       </div>
                     </div>
                   </div>
@@ -658,81 +574,11 @@ Testimonial Area
                     <div className="testi-card_review">
                       <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
                     </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
+                    <p className="box-text">“The express service was a lifesaver. I needed my laundry done urgently before leaving Makkah and they delivered within hours. Excellent quality.”</p>
                     <div className="testi-card-profile">
                       <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Amelia Margaret</h3>
-                        <p className="box-desig">Co-founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="testi-card style4">
-                    <div className="testi-card_review">
-                      <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
-                    </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
-                    <div className="testi-card-profile">
-                      <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Sophia Jennifer</h3>
-                        <p className="box-desig">Co-founder, XYZ</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="testi-card style4">
-                    <div className="testi-card_review">
-                      <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
-                    </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
-                    <div className="testi-card-profile">
-                      <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Daniel Thomas</h3>
-                        <p className="box-desig">Co-founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="testi-card style4">
-                    <div className="testi-card_review">
-                      <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
-                    </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
-                    <div className="testi-card-profile">
-                      <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">James Charles</h3>
-                        <p className="box-desig">Co-founder, XYZ</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="testi-card style4">
-                    <div className="testi-card_review">
-                      <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
-                    </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
-                    <div className="testi-card-profile">
-                      <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Alexander Joseph</h3>
-                        <p className="box-desig">Co-founder</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-slide">
-                  <div className="testi-card style4">
-                    <div className="testi-card_review">
-                      <i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" /><i className="fa-sharp fa-solid fa-star" />
-                    </div>
-                    <p className="box-text">“With transparent pricing, fast response times, and 24/7 emergency availability, we’re always here when you need us. Our customer-first approach means we treat every job with care, cleanliness, and professionalism.”</p>
-                    <div className="testi-card-profile">
-                      <div className="testi-card-profile-detaile">
-                        <h3 className="box-title">Jessica Madison</h3>
-                        <p className="box-desig">Co-founder, XYZ</p>
+                        <h3 className="box-title">Yusuf Ibrahim</h3>
+                        <p className="box-desig">Traveler</p>
                       </div>
                     </div>
                   </div>
