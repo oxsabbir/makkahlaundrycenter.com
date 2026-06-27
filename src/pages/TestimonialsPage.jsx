@@ -1,6 +1,7 @@
 import PageLayout from "../components/layout/PageLayout";
 import TestimonialList from "../components/testimonials/TestimonialList";
 import { testimonials } from "../data/testimonials";
+import Breadcrumb from "../components/layout/Breadcrumb";
 
 export default function TestimonialsPage() {
   return (
@@ -8,26 +9,12 @@ export default function TestimonialsPage() {
       title="Testimonials - Makkah Laundry Center"
       description="See what our customers say about Makkah Laundry Center"
     >
-<div className="react-fragment">{/*==============================
-    Breadcumb
-============================== */}
-  <div className="breadcumb-wrapper bg-mask " data-mask-src="/assets/img/shape/breadcumb-shape.png" data-bg-src="/assets/img/bg/breadcumb-bg.jpg">
-    <div className="container">
-      <div className="row">
-        <div className="col-xxl-12">
-          <div className="breadcumb-content">
-            <h1 className="breadcumb-title text-anim" data-cue="slideInUp" data-delay={100}>
-              Customer Testimonials </h1>
-            <ul className="breadcumb-menu" data-cue="slideInUp" data-delay={300}>
-              <li><a href="/">Home</a></li>
-              <li>Testimonials</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/*==============================
+<div className="react-fragment">
+        <Breadcrumb
+          title="Customer Testimonials"
+          items={[{ label: "Home", href: "/" }, { label: "Testimonials" }]}
+        />
+        {/*==============================
 Testimonial Area  
 ==============================*/}
   <section className="position-relative z-index-2 space">

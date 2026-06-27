@@ -1,4 +1,5 @@
 import PageLayout from "../components/layout/PageLayout";
+import Breadcrumb from "../components/layout/Breadcrumb";
 
 export default function TeamPage() {
   return (
@@ -6,25 +7,12 @@ export default function TeamPage() {
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Team"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >
-<div className="react-fragment">{/*==============================
-    Breadcumb
-============================== */}
-  <div className="breadcumb-wrapper bg-mask " data-mask-src="/assets/img/shape/breadcumb-shape.png" data-bg-src="/assets/img/bg/breadcumb-bg.jpg">
-    <div className="container">
-      <div className="row">
-        <div className="col-xxl-12">
-          <div className="breadcumb-content">
-            <h1 className="breadcumb-title text-anim" data-cue="slideInUp" data-delay={100}>
-              Team Members </h1>
-            <ul className="breadcumb-menu" data-cue="slideInUp" data-delay={300}>
-              <li><a href="/">Home</a></li>
-              <li>Team Members</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>{/*==============================
+<div className="react-fragment">
+        <Breadcrumb
+          title="Team Members"
+          items={[{ label: "Home", href: "/" }, { label: "Team Members" }]}
+        />
+        {/*==============================
 Team Area  
 ==============================*/}
   <section className="space overflow-hidden">

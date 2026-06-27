@@ -1,5 +1,6 @@
 import PageLayout from "../components/layout/PageLayout";
 import FaqSection from "../components/sections/FaqSection";
+import Breadcrumb from "../components/layout/Breadcrumb";
 
 export default function FaqPage() {
   return (
@@ -7,25 +8,11 @@ export default function FaqPage() {
       title="Makkah Laundry Center - Frequently Asked Questions"
       description="Find answers to common questions about Makkah Laundry Center services, pricing, pickup & delivery, and more."
     >
-<div className="react-fragment">{/*==============================
-    Breadcumb
-============================== */}
-  <div className="breadcumb-wrapper bg-mask " data-mask-src="/assets/img/shape/breadcumb-shape.png" data-bg-src="/assets/img/bg/breadcumb-bg.jpg">
-    <div className="container">
-      <div className="row">
-        <div className="col-xxl-12">
-          <div className="breadcumb-content">
-            <h1 className="breadcumb-title text-anim" data-cue="slideInUp" data-delay={100}>
-              Frequently Asked Questions </h1>
-            <ul className="breadcumb-menu" data-cue="slideInUp" data-delay={300}>
-              <li><a href="/">Home</a></li>
-              <li>FAQs</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div className="react-fragment">
+        <Breadcrumb
+          title="Frequently Asked Questions"
+          items={[{ label: "Home", href: "/" }, { label: "FAQs" }]}
+        />
   <FaqSection />
   {/*==============================
 Cta Area  

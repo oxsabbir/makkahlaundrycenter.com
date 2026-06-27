@@ -1,4 +1,5 @@
 import PageLayout from "../components/layout/PageLayout";
+import Breadcrumb from "../components/layout/Breadcrumb";
 
 export default function PricingPage() {
   return (
@@ -6,25 +7,12 @@ export default function PricingPage() {
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Pricing Plan"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >
-<div className="react-fragment">{/*==============================
-    Breadcumb
-============================== */}
-  <div className="breadcumb-wrapper bg-mask " data-mask-src="/assets/img/shape/breadcumb-shape.png" data-bg-src="/assets/img/bg/breadcumb-bg.jpg">
-    <div className="container">
-      <div className="row">
-        <div className="col-xxl-12">
-          <div className="breadcumb-content">
-            <h1 className="breadcumb-title text-anim" data-cue="slideInUp" data-delay={100}>
-              Pricing Plan </h1>
-            <ul className="breadcumb-menu" data-cue="slideInUp" data-delay={300}>
-              <li><a href="/">Home</a></li>
-              <li>Pricing Plan</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>{/*==============================
+<div className="react-fragment">
+        <Breadcrumb
+          title="Pricing Plan"
+          items={[{ label: "Home", href: "/" }, { label: "Pricing Plan" }]}
+        />
+{/*==============================
 Price Area  
 ==============================*/}
   <section className="space position-relative overflow-hidden">

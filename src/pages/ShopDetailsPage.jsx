@@ -1,4 +1,5 @@
 import PageLayout from "../components/layout/PageLayout";
+import Breadcrumb from "../components/layout/Breadcrumb";
 
 export default function ShopDetailsPage() {
   return (
@@ -6,27 +7,11 @@ export default function ShopDetailsPage() {
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Shop Details"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >
-<div className="react-fragment">{/*==============================
-    Breadcumb
-============================== */}
-  <div className="breadcumb-wrapper bg-mask " data-mask-src="/assets/img/shape/breadcumb-shape.png" data-bg-src="/assets/img/bg/breadcumb-bg.jpg">
-    <div className="container">
-      <div className="row">
-        <div className="col-xxl-12">
-          <div className="breadcumb-content">
-            <h1 className="breadcumb-title text-anim" data-cue="slideInUp" data-delay={100}>
-              Shop Details </h1>
-            <ul className="breadcumb-menu" data-cue="slideInUp" data-delay={300}>
-              <li><a href="/">Home</a></li>
-              <li>Shop Details</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>{/*==============================
-    Product Details
-    ==============================*/}
+<div className="react-fragment">
+        <Breadcrumb
+          title="Shop Details"
+          items={[{ label: "Home", href: "/" }, { label: "Shop Details" }]}
+        />
   <section className="product-details space-top space-extra-bottom">
     <div className="container">
       <div className="row gx-60">

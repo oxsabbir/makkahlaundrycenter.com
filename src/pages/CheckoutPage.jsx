@@ -1,4 +1,5 @@
 import PageLayout from "../components/layout/PageLayout";
+import Breadcrumb from "../components/layout/Breadcrumb";
 
 export default function CheckoutPage() {
   return (
@@ -6,26 +7,13 @@ export default function CheckoutPage() {
       title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Checkout"
       description="Pamar - Plumbing & Repair Service HTML Template"
     >
-<div className="react-fragment">{/*==============================
-    Breadcumb
-============================== */}
-  <div className="breadcumb-wrapper bg-mask " data-mask-src="/assets/img/shape/breadcumb-shape.png" data-bg-src="/assets/img/bg/breadcumb-bg.jpg">
-    <div className="container">
-      <div className="row">
-        <div className="col-xxl-12">
-          <div className="breadcumb-content">
-            <h1 className="breadcumb-title text-anim" data-cue="slideInUp" data-delay={100}>
-              Checkout </h1>
-            <ul className="breadcumb-menu" data-cue="slideInUp" data-delay={300}>
-              <li><a href="/">Home</a></li>
-              <li>Checkout</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>{/*==============================
-Checkout Arae
+<div className="react-fragment">
+        <Breadcrumb
+          title="Checkout"
+          items={[{ label: "Home", href: "/" }, { label: "Checkout" }]}
+        />
+{/*==============================
+ Checkout Arae
 ==============================*/}
   <div className="th-checkout-wrapper space-top space-extra-bottom">
     <div className="container">

@@ -10,11 +10,7 @@ export function HomeOneChromeBefore() {
      Preloader
   ==============================*/}
   <div className="preloader ">
-    <button className="th-btn preloaderCls">Cancel Preloader </button>
     <div className="preloader-inner">
-      <div className>
-        <img src="/assets/img/logo-icon.svg" alt="img" />
-      </div>
       <span className="loader">
         Makkah Laundry
         <span className="loading-text">Makkah Laundry</span>
@@ -275,33 +271,17 @@ export function HomeOneChromeFooter() {
           </div>
           <div className="col-md-6 col-xl-3" data-cue="slideInUp">
             <div className="widget footer-widget">
-              <h3 className="widget_title">Instagram Post</h3>
-              <div className="sidebar-gallery">
-                <div className="gallery-thumb">
-                  <img src="/assets/img/widget/gallery_1_1.jpg" alt="Gallery Image" />
-                  <a target="_blank" href="https://www.instagram.com/" className="gallery-btn"><i className="fab fa-instagram" /></a>
-                </div>
-                <div className="gallery-thumb">
-                  <img src="/assets/img/widget/gallery_1_2.jpg" alt="Gallery Image" />
-                  <a target="_blank" href="https://www.instagram.com/" className="gallery-btn"><i className="fab fa-instagram" /></a>
-                </div>
-                <div className="gallery-thumb">
-                  <img src="/assets/img/widget/gallery_1_3.jpg" alt="Gallery Image" />
-                  <a target="_blank" href="https://www.instagram.com/" className="gallery-btn"><i className="fab fa-instagram" /></a>
-                </div>
-                <div className="gallery-thumb">
-                  <img src="/assets/img/widget/gallery_1_4.jpg" alt="Gallery Image" />
-                  <a target="_blank" href="https://www.instagram.com/" className="gallery-btn"><i className="fab fa-instagram" /></a>
-                </div>
-                <div className="gallery-thumb">
-                  <img src="/assets/img/widget/gallery_1_5.jpg" alt="Gallery Image" />
-                  <a target="_blank" href="https://www.instagram.com/" className="gallery-btn"><i className="fab fa-instagram" /></a>
-                </div>
-                <div className="gallery-thumb">
-                  <img src="/assets/img/widget/gallery_1_6.jpg" alt="Gallery Image" />
-                  <a target="_blank" href="https://www.instagram.com/" className="gallery-btn"><i className="fab fa-instagram" /></a>
-                </div>
-              </div>
+              <h3 className="widget_title">Our Location</h3>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.1487!2d39.8262!3d21.4225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDI1JzIxLjAiTiAzOcKwNDknMzQuMiJF!5e0!3m2!1sen!2ssa!4v1"
+                width="100%"
+                height="220"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Our Location"
+              />
             </div>
           </div>
         </div>

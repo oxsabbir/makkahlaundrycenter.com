@@ -16,14 +16,10 @@ export default function TypographyPage() {
      Preloader
   ==============================*/}
   <div className="preloader ">
-    <button className="th-btn preloaderCls">Cancel Preloader </button>
     <div className="preloader-inner">
-      <div className>
-        <img src="/assets/img/logo-icon.svg" alt="img" />
-      </div>
       <span className="loader">
-        Pamar
-        <span className="loading-text">Pamar</span>
+        Makkah Laundry
+        <span className="loading-text">Makkah Laundry</span>
       </span>
     </div>
   </div>
