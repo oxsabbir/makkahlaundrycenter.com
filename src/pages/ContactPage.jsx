@@ -12,7 +12,7 @@ export default function ContactPage() {
         <Breadcrumb
           title="Contact Us"
           items={[{ label: "Home", href: "/" }, { label: "Contact Us" }]}
-          bgImg="/assets/img/bg/breadcum-bg.jpg"
+          bgImg="/assets/img/bg/breadcum-bg.webp"
           animation={false}
         />
         <style>{`
@@ -120,7 +120,9 @@ export default function ContactPage() {
                   </div>
                   <div className="cip-content">
                     <div className="cip-label">Our Address</div>
-                    <p className="cip-value">The Clock Tower Al Haram, Makkah 24231</p>
+                    <p className="cip-value">
+                      The Clock Tower Al Haram, Makkah 24231
+                    </p>
                   </div>
                 </div>
               </div>
@@ -131,7 +133,9 @@ export default function ContactPage() {
                   </div>
                   <div className="cip-content">
                     <div className="cip-label">Phone Number</div>
-                    <p className="cip-value"><a href="tel:+966569385700">+966 56 938 5700</a></p>
+                    <p className="cip-value">
+                      <a href="tel:+966569385700">+966 56 938 5700</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -142,7 +146,11 @@ export default function ContactPage() {
                   </div>
                   <div className="cip-content">
                     <div className="cip-label">Email Address</div>
-                    <p className="cip-value"><a href="mailto:info@makkahlaundrycenter.com">info@makkahlaundrycenter.com</a></p>
+                    <p className="cip-value">
+                      <a href="mailto:info@makkahlaundrycenter.com">
+                        info@makkahlaundrycenter.com
+                      </a>
+                    </p>
                   </div>
                 </div>
               </div>

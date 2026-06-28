@@ -13,7 +13,7 @@ export default function TestimonialsPage() {
         <Breadcrumb
           title="Customer Testimonials"
           items={[{ label: "Home", href: "/" }, { label: "Testimonials" }]}
-          bgImg="/assets/img/bg/breadcum-bg.jpg"
+          bgImg="/assets/img/bg/breadcum-bg.webp"
           animation={false}
         />
         {/*==============================

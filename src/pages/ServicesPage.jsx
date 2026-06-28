@@ -15,7 +15,7 @@ export default function ServicesPage() {
         <Breadcrumb
           title="Our Services"
           items={[{ label: "Home", href: "/" }, { label: "Services" }]}
-          bgImg="/assets/img/bg/breadcum-bg.jpg"
+          bgImg="/assets/img/bg/breadcum-bg.webp"
           animation={false}
         />
         <OurServicesSection services={laundryServices} />

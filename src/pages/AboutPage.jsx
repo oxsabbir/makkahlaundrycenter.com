@@ -17,7 +17,7 @@ export default function AboutPage() {
         <Breadcrumb
           title="About Us"
           items={[{ label: "Home", href: "/" }, { label: "About Us" }]}
-          bgImg="/assets/img/bg/breadcum-bg.jpg"
+          bgImg="/assets/img/bg/breadcum-bg.webp"
           animation={false}
         />
         <AboutSection />

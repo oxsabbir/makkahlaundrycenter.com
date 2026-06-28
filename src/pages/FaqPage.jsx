@@ -12,7 +12,7 @@ export default function FaqPage() {
         <Breadcrumb
           title="Frequently Asked Questions"
           items={[{ label: "Home", href: "/" }, { label: "FAQs" }]}
-          bgImg="/assets/img/bg/breadcum-bg.jpg"
+          bgImg="/assets/img/bg/breadcum-bg.webp"
           animation={false}
         />
         <FaqSection />

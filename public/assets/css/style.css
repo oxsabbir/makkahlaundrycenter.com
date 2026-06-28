@@ -12954,13 +12954,7 @@ body
 .breadcumb-wrapper.unittest-breadcrumb .breadcumb-content {
   padding: var(--space) 0 !important;
 }
-.breadcumb-wrapper:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--theme-color);
-  mix-blend-mode: hue;
-}
+
 .breadcumb-wrapper .breadcumb-content {
   --space: 155px;
   padding: var(--space) 0;
@@ -12998,6 +12992,12 @@ body
 @media (max-width: 575px) {
   .breadcumb-title {
     font-size: 34px;
+  }
+  body:has(.th-header.header-default) .breadcumb-wrapper .breadcumb-content {
+    padding: calc(var(--space) + 10px) 0 var(--space);
+  }
+  body .th-header.header-default:has(.header-top) ~ .breadcumb-wrapper .breadcumb-content {
+    padding: calc(var(--space) + 10px) 0 var(--space);
   }
   .breadcumb-wrapper .breadcumb-content {
     --space: 100px;

@@ -88,14 +88,6 @@ body .th-header.header-default:has(.header-top)~.breadcumb-wrapper .breadcumb-co
          padding: var(--space) 0 !important;
       }
    }
-   &:after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: $theme-color;
-      mix-blend-mode: hue;
-   }
-
    .breadcumb-content {
       --space: 155px;
       padding: var(--space) 0;
@@ -140,6 +132,14 @@ body .th-header.header-default:has(.header-top)~.breadcumb-wrapper .breadcumb-co
 @include xs {
    .breadcumb-title {
       font-size: 34px;
+   }
+
+   body:has(.th-header.header-default) .breadcumb-wrapper .breadcumb-content {
+      padding: calc(var(--space) + 10px) 0 var(--space);
+   }
+
+   body .th-header.header-default:has(.header-top)~.breadcumb-wrapper .breadcumb-content {
+      padding: calc(var(--space) + 10px) 0 var(--space);
    }
 
    .breadcumb-wrapper .breadcumb-content {
