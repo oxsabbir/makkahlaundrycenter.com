@@ -4805,7 +4805,7 @@ textarea.is-invalid {
 /* Floating WhatsApp Button */
 .whatsapp-float {
   position: fixed;
-  left: 30px;
+  right: 30px;
   bottom: 55px;
   width: 55px;
   height: 55px;
@@ -5053,7 +5053,7 @@ textarea.is-invalid {
   text-transform: capitalize;
   font-size: 14px;
   border: 0;
-  padding: 0px 18px;
+  padding: 4px 18px;
 }
 .sub-title.style5:before,
 .sub-title.style5:after {
@@ -5086,16 +5086,7 @@ textarea.is-invalid {
   /* Large devices */
   /* Small devices */
 }
-.sub-title2:before {
-  content: "";
-  position: relative;
-  background-image: url(../img/icon/title-icon.svg);
-  background-size: 100% 100%;
-  width: 16px;
-  height: 16px;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
+
 .sub-title2.style2 {
   padding: 1px 18px;
 }
@@ -10915,6 +10906,11 @@ ol.wp-block-rss {
     background-color: rgba(0, 0, 0, 0.15);
   }
 }
+@media (max-width: 991px) {
+  .header-top {
+    display: none;
+  }
+}
 
 .header-logo {
   padding-top: 15px;
@@ -14334,6 +14330,9 @@ ul.comment-list
   -o-object-fit: cover;
   object-fit: cover;
 }
+.hero-1 .swiper-slide:first-child .th-hero-bg img {
+  object-position: center right;
+}
 
 /* Hero 1 ---------------------------------- */
 .hero-title {
@@ -14478,7 +14477,7 @@ ul.comment-list
 .hero-style1 {
   position: relative;
   z-index: 6;
-  padding: 285px 0 248px;
+  padding: 315px 0 278px;
   max-width: 712px;
   /* Extra large devices */
   /* Medium Large devices */
@@ -14505,7 +14504,7 @@ ul.comment-list
 }
 @media (max-width: 767px) {
   .hero-style1 {
-    padding: 200px 0 140px;
+    padding: 240px 0 180px;
   }
 }
 .hero-style1 .hero-text {
@@ -14556,7 +14555,7 @@ ul.comment-list
 }
 @media (max-width: 767px) {
   .hero-style1 .sub-title {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
