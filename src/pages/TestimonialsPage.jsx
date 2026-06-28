@@ -31,7 +31,7 @@ Cta Area
           <div className="container">
             <div className="row gy-30  align-items-start">
               <div className="col-xl-7">
-                <div className="cta-img" data-cue="slideInUp">
+                <div className="cta-img">
                   <img src="/assets/img/normal/cta-img4-1.jpg" alt />
                   <a
                     href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
@@ -42,26 +42,26 @@ Cta Area
                 </div>
               </div>
               <div className="col-xl-5 col-lg-7">
-                <div className="cta-wrap4" data-cue="slideInUp">
+                <div className="cta-wrap4">
                   <div className="title-area text-left mb-0">
                     <span
                       className="sub-title2 style3 bg-gray-color"
-                      data-cue="slideInUp"
+                     
                     >
                       Get a Free Quote
                     </span>
                     <h2
                       className="sec-title style6 text-anim2"
-                      data-cue="slideInUp"
+                     
                     >
                       Need <span>Professional</span>
                       <br /> Laundry Care? We've Got You Covered!
                     </h2>
-                    <p className="sec-text2" data-cue="slideInUp">
+                    <p className="sec-text2">
                       Free pickup &amp; delivery across Makkah. Premium wash,
                       dry cleaning, and ironing services tailored to your needs.
                     </p>
-                    <div className="btn-group" data-cue="slideInUp">
+                    <div className="btn-group">
                       <a href="/about" className="th-btn ">
                         Request a Quote
                         <span className="after-bg" />

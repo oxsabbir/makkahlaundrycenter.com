@@ -78,18 +78,16 @@ export default function FaqSection({ limit }) {
               <div className="title-area text-left mb-0">
                 <span
                   className="sub-title2 style3 bg-gray-color"
-                  data-cue="slideInUp"
                 >
                   FAQs
                 </span>
                 <h2
                   className="sec-title style6 text-anim2"
-                  data-cue="slideInUp"
                 >
                   Your <span>Questions </span>
                   <br /> Answered
                 </h2>
-                <p className="sec-text2" data-cue="slideInUp">
+                <p className="sec-text2">
                   Everything you need to know about our laundry and dry cleaning
                   services in Makkah.
                 </p>

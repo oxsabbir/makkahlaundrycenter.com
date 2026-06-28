@@ -31,6 +31,21 @@
     ==================================*/
     /*
 
+    /*---------- 01. On Load Function ----------*/
+    $(window).on("load", function () {
+        $(".preloader").fadeOut();
+    });
+
+    /*---------- 02. Preloader ----------*/
+    if ($(".preloader").length > 0) {
+        $(".preloaderCls").each(function () {
+            $(this).on("click", function (e) {
+                e.preventDefault();
+                $(".preloader").css("display", "none");
+            });
+        });
+    }
+
     /*---------- 03. Mobile Menu ----------*/
     $.fn.thmobilemenu = function (options) {
         var opt = $.extend(

@@ -114,7 +114,7 @@ export default function ContactPage() {
           <div className="container">
             <div className="row gy-4 justify-content-center">
               <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="contact-info-premium" data-cue="slideInUp">
+                <div className="contact-info-premium">
                   <div className="cip-icon">
                     <i className="fal fa-map-marker-alt" />
                   </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="contact-info-premium" data-cue="slideInUp">
+                <div className="contact-info-premium">
                   <div className="cip-icon">
                     <i className="fal fa-phone" />
                   </div>
@@ -140,7 +140,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="contact-info-premium" data-cue="slideInUp">
+                <div className="contact-info-premium">
                   <div className="cip-icon">
                     <i className="fal fa-envelope" />
                   </div>

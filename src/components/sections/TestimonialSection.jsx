@@ -53,7 +53,7 @@ export default function TestimonialSection({ ishomePage = true }) {
                 >
                   Reviews.
                 </h2>
-                <p className="sec-text" data-cue="slideInUp">
+                <p className="sec-text">
                   See what our customers in Makkah have to say about our laundry
                   and dry cleaning services. From wash & fold to premium dry
                   cleaning, we take pride in every garment we handle. Your

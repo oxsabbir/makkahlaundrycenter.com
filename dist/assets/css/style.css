@@ -920,16 +920,19 @@ ul.wp-block-rss a {
   border-color: var(--th-border-color);
 }
 
-.logged-in .sticky-wrapper.sticky {
+.logged-in .sticky-wrapper.sticky,
+.logged-in .preloader {
   top: 32px;
 }
 @media (max-width: 782px) {
-  .logged-in .sticky-wrapper.sticky {
+  .logged-in .sticky-wrapper.sticky,
+  .logged-in .preloader {
     top: 46px;
   }
 }
 @media (max-width: 600px) {
-  .logged-in .sticky-wrapper.sticky {
+  .logged-in .sticky-wrapper.sticky,
+  .logged-in .preloader {
     top: 0;
   }
 }
@@ -3244,6 +3247,57 @@ textarea.is-invalid {
 /*=================================
     03. Utilities
 ==================================*/
+/*------------------- 3.1. Preloader -------------------*/
+.preloader {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: var(--white-color);
+}
+
+.preloader-inner {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  line-height: 1;
+}
+.preloader-inner img {
+  width: 80px;
+  -webkit-animation: preloader-pulse 1s ease-in-out infinite alternate;
+  animation: preloader-pulse 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes preloader-pulse {
+  0% {
+    opacity: 0.4;
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes preloader-pulse {
+  0% {
+    opacity: 0.4;
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 /*------------------- 3.2. Buttons -------------------*/
 .th-btn {
   position: relative;
@@ -10833,7 +10887,7 @@ ol.wp-block-rss {
 }
 @media (max-width: 991px) {
   .header-logo {
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
   }
 }
 .header-logo a {
@@ -11221,6 +11275,12 @@ ol.wp-block-rss {
   .header-default .th-btn.style6 {
     display: none;
   }
+}
+
+.menu-button {
+  width: var(--btn-size, 46px);
+  height: var(--btn-size, 46px);
+  line-height: var(--btn-size, 46px);
 }
 
 /* Medium Large devices */
@@ -12954,13 +13014,7 @@ body
 .breadcumb-wrapper.unittest-breadcrumb .breadcumb-content {
   padding: var(--space) 0 !important;
 }
-.breadcumb-wrapper:after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: var(--theme-color);
-  mix-blend-mode: hue;
-}
+
 .breadcumb-wrapper .breadcumb-content {
   --space: 155px;
   padding: var(--space) 0;
@@ -12999,8 +13053,18 @@ body
   .breadcumb-title {
     font-size: 34px;
   }
+  body:has(.th-header.header-default) .breadcumb-wrapper .breadcumb-content {
+    padding: calc(var(--space) + 10px) 0 var(--space);
+  }
+  body
+    .th-header.header-default:has(.header-top)
+    ~ .breadcumb-wrapper
+    .breadcumb-content {
+    padding: calc(var(--space) + 10px) 0 var(--space);
+  }
   .breadcumb-wrapper .breadcumb-content {
     --space: 100px;
+    text-align: center;
   }
 }
 /*------------------- 4.5. Pagination  -------------------*/

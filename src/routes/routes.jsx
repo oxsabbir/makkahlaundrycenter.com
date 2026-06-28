@@ -29,6 +29,7 @@ const CheckoutPage = page("CheckoutPage");
 const WishlistPage = page("WishlistPage");
 const ContactPage = page("ContactPage");
 const TypographyPage = page("TypographyPage");
+const PrivacyPolicyPage = page("PrivacyPolicyPage");
 const NotFoundPage = page("NotFoundPage");
 
 export const routes = [
@@ -59,5 +60,6 @@ export const routes = [
   { path: "/wishlist", element: <WishlistPage /> },
   { path: "/contact", element: <ContactPage /> },
   { path: "/typography", element: <TypographyPage /> },
+  { path: "/privacy-policy", element: <PrivacyPolicyPage /> },
   { path: "*", element: <NotFoundPage /> },
 ];

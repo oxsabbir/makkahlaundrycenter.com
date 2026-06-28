@@ -8,6 +8,14 @@ export function HomeOneChromeBefore() {
       {/* slider drag cursor */}
       {/* <div class="slider-drag-cursor"> DRAG </div> */}
       {/*==============================
+     Preloader
+   ==============================*/}
+      <div className="preloader">
+        <div className="preloader-inner">
+          <img src="/assets/img/logo-icon.svg" alt="Makkah Laundry Center" />
+        </div>
+      </div>
+      {/*==============================
     Mobile Menu 
   ============================== */}
       <div className="th-menu-wrapper">
@@ -249,7 +257,7 @@ export function HomeOneChromeHeader() {
                   </li>
                   <li className=" d-xxl-inline-block">
                     <i className="fal fa-location-dot" />
-                    Al Naseem District, Makkah, Saudi Arabia
+                    The Clock Tower Al Haram, Makkah 24231
                   </li>
                 </ul>
               </div>

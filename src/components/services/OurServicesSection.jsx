@@ -16,18 +16,17 @@ export default function OurServicesSection({
           <div>
             <div className="">
               <div className="text-xxl-end text-xl-end text-lg-end text-start">
-                <span className="sub-title style2 after-none before-none" data-cue="slideInUp">
+                <span className="sub-title style2 after-none before-none">
                   {subtitle}
                 </span>
                 <h2
                   className="sec-title style3 style7 mb-0"
-                  data-cue="slideInUp"
                   dangerouslySetInnerHTML={{ __html: title }}
                 />
               </div>
             </div>
             <div>
-              <div className="title-area-right text-start" data-cue="slideInUp">
+              <div className="title-area-right text-start">
                 <p className="mb-0">{description}</p>
               </div>
             </div>

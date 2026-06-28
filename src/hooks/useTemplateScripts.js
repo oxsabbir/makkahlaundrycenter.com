@@ -58,9 +58,11 @@ export default function useTemplateScripts() {
         }
 
         if (!active) return;
+        window.jQuery?.(".preloader").fadeOut();
       } catch (scriptError) {
         if (active) {
           setError(scriptError);
+          window.jQuery?.(".preloader").hide();
         }
       }
     };

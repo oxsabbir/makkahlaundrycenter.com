@@ -9,7 +9,6 @@ export default function AboutSection() {
                 <div className="text-center">
                   <span
                     className="sub-title style2 text-anim after-none before-none"
-                    data-cue="slideInUp"
                   >
                     Who we Are
                   </span>
@@ -19,7 +18,6 @@ export default function AboutSection() {
                 <div className="text-center">
                   <h2
                     className="sec-title style2 text-anim2 mb-0"
-                    data-cue="slideInUp"
                   >
                     About Us
                   </h2>
@@ -31,9 +29,7 @@ export default function AboutSection() {
             <div className="col-xxl-6 col-xl-6 col-lg-6">
               <div
                 className="img-box1"
-                data-cue="slideInUp"
-                data-delay={300}
-              >
+                              >
                 <div
                   className="img2 bg-mask"
                   data-mask-src="/assets/img/shape/about-thumb1-1-shape.png"
@@ -55,7 +51,7 @@ export default function AboutSection() {
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6">
-              <div className="about-wrap" data-cue="slideInUp">
+              <div className="about-wrap">
                 <div className="title-area mb-40">
                   <p>
                     Our laundry services are designed to provide fast,
@@ -84,7 +80,7 @@ export default function AboutSection() {
               </div>
               <div className="img-box2 d-none d-xxl-block d-xl-block">
                 <div className="row">
-                  <div className="col-xxl-6 col-md-6" data-cue="slideInUp">
+                  <div className="col-xxl-6 col-md-6">
                     <div className="img-box1">
                       <div className="img1">
                         <img
@@ -94,7 +90,7 @@ export default function AboutSection() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xxl-6 col-md-6" data-cue="slideInUp">
+                  <div className="col-xxl-6 col-md-6">
                     <div className="img-box1">
                       <div className="img1">
                         <img
