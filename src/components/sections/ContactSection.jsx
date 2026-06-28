@@ -35,10 +35,7 @@ export default function ContactSection() {
           <div className="row gy-60 align-items-center">
             <div className="col-xxl-6">
               <div className="page-img mb-0">
-                <img
-                  src="/assets/img/normal/consulting-thumb1-1.jpg"
-                  alt="img"
-                />
+                <img src="/assets/img/normal/cta-thumb.webp" alt="img" />
               </div>
             </div>
             <div className="col-xxl-6">
