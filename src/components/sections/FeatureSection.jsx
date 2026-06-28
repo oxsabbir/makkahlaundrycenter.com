@@ -1,18 +1,18 @@
 const features = [
   {
-    icon: "/assets/img/icon/feature-icon1-1.svg",
+    icon: "/assets/img/icon/feature-1-1.svg",
     title: "Premium Wash &amp; Fold",
-    text: "Your clothes are sorted, washed, and folded with care using premium detergents for a fresh, clean result every time.",
+    text: "Your clothes are sorted, washed, and folded with care for a fresh, clean finish.",
   },
   {
     icon: "/assets/img/icon/feature-icon1-2.svg",
     title: "Free Pickup &amp; Delivery",
-    text: "We collect your laundry from your doorstep and return it fresh and neatly folded — no driving, no waiting.",
+    text: "We collect your laundry from your doorstep and return it fresh and neatly folded.",
   },
   {
     icon: "/assets/img/icon/feature-icon1-3.svg",
     title: "Expert Dry Cleaning",
-    text: "Delicate fabrics and special garments get the professional dry cleaning treatment they deserve — gentle yet effective.",
+    text: "Delicate fabrics and special garments get professional, gentle dry cleaning.",
   },
 ];
 

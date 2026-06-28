@@ -20,7 +20,7 @@ export default function ServicesPage() {
         />
         <OurServicesSection services={laundryServices} />
         <ContactSection />
-        <TestimonialSection />
+        <TestimonialSection ishomePage={false} />
         {/*==============================
 	Footer Area
 ==============================*/}

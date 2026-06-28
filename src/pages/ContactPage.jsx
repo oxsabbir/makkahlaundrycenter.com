@@ -1,142 +1,171 @@
 import PageLayout from "../components/layout/PageLayout";
 import Breadcrumb from "../components/layout/Breadcrumb";
+import ContactSection from "../components/sections/ContactSection";
 
 export default function ContactPage() {
   return (
     <PageLayout
-      title="Shared on THEMELOCK.COM - Pamar - Plumbing & Repair Service HTML Template - Contact Us"
-      description="Pamar - Plumbing & Repair Service HTML Template"
+      title="Contact Us - Makkah Laundry Center"
+      description="Get in touch with Makkah Laundry Center for all your laundry needs in Makkah"
     >
-<div className="react-fragment">
+      <div className="react-fragment">
         <Breadcrumb
           title="Contact Us"
           items={[{ label: "Home", href: "/" }, { label: "Contact Us" }]}
-        />{/*==============================
-Contact Area   
-==============================*/}
-  <div className="space overflow-hidden contact-area-1 position-relative z-index-common" id="contact-info-sec">
-    <div className="container">
-      <div className="row gy-40 justify-content-center">
-        <div className="col-xl-4 col-lg-6 col-md-6">
-          <div className="contact-info style4" data-cue="slideInUp">
-            <div className="box-icon">
-              <i className="fal fa-map-marker-alt" />
-            </div>
-            <div className="box-content">
-              <h4 className="box-title">Our Address</h4>
-              <p className="box-text">2690 Hiltona Street Victoria Road, New York, Canada</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-4 col-lg-6 col-md-6">
-          <div className="contact-info style4" data-cue="slideInUp">
-            <div className="box-icon">
-              <i className="fal fa-phone" />
-            </div>
-            <div className="box-content">
-              <h4 className="box-title">Phone Number</h4>
-              <p className="box-text"><a href="tel:+919175513773">+01 234 567 890</a><a href="tel:+919175513773">+919 (175) 513 773</a></p>
-            </div>
-          </div>
-        </div>
-        <div className="col-xl-4 col-lg-6 col-md-6">
-          <div className="contact-info style4" data-cue="slideInUp">
-            <div className="box-icon">
-              <i className="fal fa-envelope" />
-            </div>
-            <div className="box-content">
-              <h4 className="box-title">Email Address</h4>
-              <p className="box-text"><a href="mailto:help24/7.info@pamar.com">help24/7.info@pamar.com</a><a href="mailto:info@pamar.com">info@pamar.com</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>{/*==============================
-Contact Area   
-==============================*/}
-  <div className="space overflow-hidden contact-area-1 position-relative z-index-common" id="contact-sec">
-    <div className="container">
-      <div className="consulting-wrap1">
-        <div className="row gy-60 align-items-center">
-          <div className="col-xxl-6">
-            <div className="page-img mb-0">
-              <img src="/assets/img/normal/consulting-thumb1-1.jpg" alt="img" />
-            </div>
-          </div>
-          <div className="col-xxl-6">
-            <div className="consulting-form-wrap1">
-              <div className="title-area mb-60 ">
-                <span className="sub-title style2 text-white border-white text-anim after-none before-none" data-cue="slideInLeft">Get In Touch</span>
-                <h2 className="sec-title text-white">Get Your Free <span>Estimate!</span></h2>
-              </div>
-              {/*==============================
-Contact Area  
-==============================*/}
-              <div className="contact-form-v1 ">
-                <form action="/mail.php" method="POST" className="contact-form ajax-contact">
-                  <div className="row">
-                    <div className="form-group style-border col-md-6">
-                      <input type="text" className="form-control" name="name" id="name" placeholder="Your name" />
-                      <i className="far fa-user" />
-                    </div>
-                    <div className="form-group style-border col-md-6">
-                      <input type="email" className="form-control" name="email" id="email" placeholder="Email Address" />
-                      <i className="far fa-envelope" />
-                    </div>
-                    <div className="form-group style-border col-md-6">
-                      <input type="number" className="form-control" name="number" id="number" placeholder="Phone Number" />
-                      <i className="far fa-phone" />
-                    </div>
-                    <div className="form-group style-border col-md-6">
-                      <select name="subject" id="subject" className="form-select bg-white">
-                        <option value disabled selected hidden>Select Service</option>
-                        <option value="Web Development">Web Development</option>
-                        <option value="Brand Marketing">Brand Marketing</option>
-                        <option value="UI/UX Designing">UI/UX Designing</option>
-                        <option value="Digital Marketing">Digital Marketing</option>
-                      </select>
-                    </div>
-                    <div className="form-group style-border col-12">
-                      <textarea name="message" id="message" cols={30} rows={3} className="form-control" placeholder="Write Message...." defaultValue={""} />
-                      <i className="fa-light fa-pen" />
-                    </div>
-                    <div className="form-group col-12">
-                      <div className="custom-checkbox">
-                        <input type="checkbox" id="remembermylogin" />
-                        <label htmlFor="remembermylogin" className="text-white">I agree with the privacy policy</label>
-                      </div>
-                    </div>
-                    <div className="form-btn col-12">
-                      <button className="th-btn style5 ">
-                        Request A Quote
-                        <span className="after-bg" />
-                      </button>
-                    </div>
+          bgImg="/assets/img/bg/breadcum-bg.jpg"
+          animation={false}
+        />
+        <style>{`
+          .contact-info-premium {
+            background: #fff;
+            border-radius: 20px;
+            padding: 32px 28px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+          }
+          .contact-info-premium:hover {
+            box-shadow: 0 16px 48px rgba(0, 82, 218, 0.10);
+            transform: translateY(-4px);
+            border-color: rgba(0, 82, 218, 0.25);
+            background: rgba(0, 82, 218, 0.04);
+          }
+          .contact-info-premium .cip-icon {
+            width: 56px;
+            height: 56px;
+            border-radius: 16px;
+            background: linear-gradient(135deg, rgba(0, 82, 218, 0.08), rgba(253, 181, 42, 0.08));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: var(--theme-color);
+            flex-shrink: 0;
+            transition: all 0.45s ease;
+          }
+          .contact-info-premium:hover .cip-icon {
+            background: var(--theme-color);
+            color: #fff;
+          }
+          .contact-info-premium .cip-content {
+            flex: 1;
+            min-width: 0;
+          }
+          .contact-info-premium .cip-label {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            color: rgba(0, 0, 0, 0.55);
+            margin-bottom: 4px;
+          }
+          .contact-info-premium .cip-value {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--title-color);
+            margin: 0;
+            line-height: 1.45;
+          }
+          .contact-info-premium .cip-value a {
+            color: var(--title-color);
+            text-decoration: none;
+          }
+          .contact-info-premium .cip-value a:hover {
+            color: var(--theme-color);
+          }
+          @media (max-width: 991px) {
+            .contact-info-premium {
+              padding: 24px 22px;
+            }
+            .contact-info-premium .cip-value {
+              font-size: 15px;
+            }
+          }
+          @media (max-width: 767px) {
+            .contact-info-premium {
+              padding: 20px;
+              gap: 16px;
+            }
+            .contact-info-premium .cip-icon {
+              width: 46px;
+              height: 46px;
+              font-size: 20px;
+            }
+            .contact-info-premium .cip-label {
+              font-size: 11px;
+            }
+            .contact-info-premium .cip-value {
+              font-size: 14px;
+            }
+          }
+        `}</style>
+        {/*==============================
+         Contact Area   
+         ==============================*/}
+        <div
+          className="space overflow-hidden contact-area-1 position-relative z-index-common"
+          id="contact-info-sec"
+        >
+          <div className="container">
+            <div className="row gy-4 justify-content-center">
+              <div className="col-xl-4 col-lg-6 col-md-6">
+                <div className="contact-info-premium" data-cue="slideInUp">
+                  <div className="cip-icon">
+                    <i className="fal fa-map-marker-alt" />
                   </div>
-                  <p className="form-messages mb-0 mt-3" />
-                </form>
+                  <div className="cip-content">
+                    <div className="cip-label">Our Address</div>
+                    <p className="cip-value">The Clock Tower Al Haram, Makkah 24231</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6 col-md-6">
+                <div className="contact-info-premium" data-cue="slideInUp">
+                  <div className="cip-icon">
+                    <i className="fal fa-phone" />
+                  </div>
+                  <div className="cip-content">
+                    <div className="cip-label">Phone Number</div>
+                    <p className="cip-value"><a href="tel:+966569385700">+966 56 938 5700</a></p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xl-4 col-lg-6 col-md-6">
+                <div className="contact-info-premium" data-cue="slideInUp">
+                  <div className="cip-icon">
+                    <i className="fal fa-envelope" />
+                  </div>
+                  <div className="cip-content">
+                    <div className="cip-label">Email Address</div>
+                    <p className="cip-value"><a href="mailto:info@makkahlaundrycenter.com">info@makkahlaundrycenter.com</a></p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div className="contact-thumb1-1-shape bg-mask" data-mask-src="/assets/img/shape/contact-thumb1-1-shape.jpg">
-      <img src="/assets/img/shape/bg-shape6.png" alt />
-    </div>
-  </div>{/*==============================
+        <ContactSection />
+        {/*==============================
 Map Area  
 ==============================*/}
-  <div className="overflow-hidden contact-page-v1">
-    <div className="contact-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuztheme!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowFullScreen loading="lazy" />
-    </div>
-  </div>
-  {/*==============================
+        <div className="overflow-hidden contact-page-v1">
+          <div className="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.1487!2d39.8262!3d21.4225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDI1JzIxLjAiTiAzOcKwNDknMzQuMiJF!5e0!3m2!1sen!2ssa!4v1"
+              allowFullScreen
+              loading="lazy"
+            />
+          </div>
+        </div>
+        {/*==============================
 	Footer Area
-==============================*/}</div>
-
+==============================*/}
+      </div>
     </PageLayout>
   );
 }

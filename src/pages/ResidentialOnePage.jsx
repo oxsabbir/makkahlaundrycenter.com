@@ -1152,8 +1152,7 @@ Contact Info Area
             <div className="box-content bg-mask" data-mask-src="/assets/img/shape/info-thum3-1.png">
               <h3 className="box-title">VISIT US</h3>
               <p className="box-text">
-                56, Building- Avenue-96
-                New York
+                The Clock Tower Al Haram, Makkah 24231
               </p>
             </div>
           </div>

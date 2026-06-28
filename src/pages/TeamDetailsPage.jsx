@@ -89,8 +89,7 @@ Team Area
                       <i className="fal fa-map-marker-alt" />
                     </div>
                     <div className="box-content">
-                      <p className="box-text">123 Maple Street Apt C </p>
-                      <p className="box-text">Boston MS, USA</p>
+                      <p className="box-text">The Clock Tower Al Haram, Makkah 24231</p>
                     </div>
                   </div>
                 </div>

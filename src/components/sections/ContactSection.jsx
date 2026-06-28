@@ -12,7 +12,10 @@ export default function ContactSection() {
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: type === "checkbox" ? checked : value }));
+    setFormData((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
   };
 
   const handleSubmit = (e) => {
@@ -45,10 +48,10 @@ export default function ContactSection() {
                     className="sub-title style2 text-white border-white text-anim after-none before-none"
                     data-cue="slideInLeft"
                   >
-                    Get In Touch
+                    Let us call you back
                   </span>
                   <h2 className="sec-title text-white">
-                    Free Laundry Care <span>Estimate!</span>
+                    Get <span>Instant</span> callback
                   </h2>
                 </div>
                 <div className="contact-form-v1 ">
@@ -101,12 +104,22 @@ export default function ContactSection() {
                           <option value="" disabled hidden>
                             Select Service
                           </option>
-                          <option value="Premium Dry Cleaning">Premium Dry Cleaning</option>
-                          <option value="Ironing And Pressing">Ironing And Pressing</option>
-                          <option value="Wash &amp; Fold Service">Wash &amp; Fold Service</option>
+                          <option value="Premium Dry Cleaning">
+                            Premium Dry Cleaning
+                          </option>
+                          <option value="Ironing And Pressing">
+                            Ironing And Pressing
+                          </option>
+                          <option value="Wash &amp; Fold Service">
+                            Wash &amp; Fold Service
+                          </option>
                           <option value="Stain Removal">Stain Removal</option>
-                          <option value="Ihram Cleaning &amp; Care">Ihram Cleaning &amp; Care</option>
-                          <option value="Pickup &amp; Delivery Service">Pickup &amp; Delivery Service</option>
+                          <option value="Ihram Cleaning &amp; Care">
+                            Ihram Cleaning &amp; Care
+                          </option>
+                          <option value="Pickup &amp; Delivery Service">
+                            Pickup &amp; Delivery Service
+                          </option>
                         </select>
                       </div>
                       <div className="form-group style-border col-12">
@@ -131,14 +144,17 @@ export default function ContactSection() {
                             checked={formData.privacy}
                             onChange={handleChange}
                           />
-                          <label htmlFor="remembermylogin" className="text-white">
+                          <label
+                            htmlFor="remembermylogin"
+                            className="text-white"
+                          >
                             I agree with the privacy policy
                           </label>
                         </div>
                       </div>
                       <div className="form-btn col-12">
                         <button type="submit" className="th-btn style5">
-                          Get Free Quote
+                          Get Callback
                           <span className="after-bg" />
                         </button>
                       </div>

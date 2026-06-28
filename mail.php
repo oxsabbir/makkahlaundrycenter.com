@@ -20,7 +20,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "yourmail@gmail.com";
+        $recipient = "info@makkahlaundrycenter.com";
 
         // Set the email subject.
         $subject = "New contact from $subject";
