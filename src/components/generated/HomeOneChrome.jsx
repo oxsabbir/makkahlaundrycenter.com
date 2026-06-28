@@ -526,7 +526,7 @@ export function HomeOneChromeFooter() {
               <div className="col-lg-6" data-cue="slideInUp">
                 <p className="copyright-text">
                   Copyright
-                  <i className="fal fa-copyright" /> 2025{" "}
+                  <i className="fal fa-copyright" /> 2026{" "}
                   <a href="/">Makkah Laundry Center</a>, All rights reserved.
                 </p>
               </div>
