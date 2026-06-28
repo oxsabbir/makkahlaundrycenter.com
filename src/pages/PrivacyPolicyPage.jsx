@@ -11,8 +11,10 @@ export default function PrivacyPolicyPage() {
         <Breadcrumb
           title="Privacy Policy"
           items={[{ label: "Home", href: "/" }, { label: "Privacy Policy" }]}
+          bgImg="/assets/img/bg/breadcum-bg.webp"
           animation={false}
         />
+
         <section className="space">
           <div className="container">
             <div className="row justify-content-center">
@@ -60,31 +62,43 @@ export default function PrivacyPolicyPage() {
                   </ul>
 
                   <h4>How We Use Your Information</h4>
-                  <p>We use the collected information for the following purposes:</p>
+                  <p>
+                    We use the collected information for the following purposes:
+                  </p>
                   <ul>
-                    <li>To provide and manage our laundry and dry cleaning services.</li>
+                    <li>
+                      To provide and manage our laundry and dry cleaning
+                      services.
+                    </li>
                     <li>To schedule pickups and deliveries.</li>
                     <li>To process payments and send invoices.</li>
-                    <li>To communicate with you about your orders and inquiries.</li>
+                    <li>
+                      To communicate with you about your orders and inquiries.
+                    </li>
                     <li>To improve our website and service quality.</li>
-                    <li>To send promotional offers and updates (with your consent).</li>
+                    <li>
+                      To send promotional offers and updates (with your
+                      consent).
+                    </li>
                     <li>To comply with legal obligations.</li>
                   </ul>
 
                   <h4>Data Sharing and Disclosure</h4>
                   <p>
-                    We do not sell your personal information to third parties. We
-                    may share your information only in the following circumstances:
+                    We do not sell your personal information to third parties.
+                    We may share your information only in the following
+                    circumstances:
                   </p>
                   <ul>
                     <li>
-                      <strong>Service Providers:</strong> With trusted third-party
-                      vendors who assist us in operating our business (payment
-                      processors, delivery partners, IT services).
+                      <strong>Service Providers:</strong> With trusted
+                      third-party vendors who assist us in operating our
+                      business (payment processors, delivery partners, IT
+                      services).
                     </li>
                     <li>
-                      <strong>Legal Requirements:</strong> When required by law or
-                      to protect our legal rights.
+                      <strong>Legal Requirements:</strong> When required by law
+                      or to protect our legal rights.
                     </li>
                     <li>
                       <strong>Business Transfers:</strong> In connection with a
@@ -98,11 +112,15 @@ export default function PrivacyPolicyPage() {
                     measures to protect your personal information against
                     unauthorized access, alteration, disclosure, or destruction.
                     However, no method of transmission over the Internet is
-                    completely secure, and we cannot guarantee absolute security.
+                    completely secure, and we cannot guarantee absolute
+                    security.
                   </p>
 
                   <h4>Your Rights</h4>
-                  <p>Depending on your jurisdiction, you may have the following rights:</p>
+                  <p>
+                    Depending on your jurisdiction, you may have the following
+                    rights:
+                  </p>
                   <ul>
                     <li>The right to access your personal data.</li>
                     <li>The right to rectify inaccurate data.</li>
@@ -118,31 +136,33 @@ export default function PrivacyPolicyPage() {
 
                   <h4>Cookies</h4>
                   <p>
-                    Our website uses cookies to enhance your browsing experience.
-                    You can control cookie preferences through your browser
-                    settings. For more information, please refer to our Cookie
-                    Policy.
+                    Our website uses cookies to enhance your browsing
+                    experience. You can control cookie preferences through your
+                    browser settings. For more information, please refer to our
+                    Cookie Policy.
                   </p>
 
                   <h4>Third-Party Links</h4>
                   <p>
-                    Our website may contain links to third-party websites. We are
-                    not responsible for the privacy practices or content of such
-                    external sites. We encourage you to review their privacy
-                    policies before providing any personal information.
+                    Our website may contain links to third-party websites. We
+                    are not responsible for the privacy practices or content of
+                    such external sites. We encourage you to review their
+                    privacy policies before providing any personal information.
                   </p>
 
                   <h4>Changes to This Privacy Policy</h4>
                   <p>
                     We may update this Privacy Policy from time to time. Any
-                    changes will be posted on this page with an updated effective
-                    date. We encourage you to review this policy periodically.
+                    changes will be posted on this page with an updated
+                    effective date. We encourage you to review this policy
+                    periodically.
                   </p>
 
                   <h4>Contact Us</h4>
                   <p>
                     If you have any questions, concerns, or requests regarding
-                    this Privacy Policy or our data practices, please contact us:
+                    this Privacy Policy or our data practices, please contact
+                    us:
                   </p>
                   <ul>
                     <li>
@@ -153,9 +173,7 @@ export default function PrivacyPolicyPage() {
                     </li>
                     <li>
                       <strong>WhatsApp:</strong>{" "}
-                      <a href="https://wa.me/966569385700">
-                        +966 56 938 5700
-                      </a>
+                      <a href="https://wa.me/966569385700">+966 56 938 5700</a>
                     </li>
                     <li>
                       <strong>Address:</strong> Al Naseem District, Makkah,

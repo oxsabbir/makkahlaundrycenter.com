@@ -537,13 +537,10 @@ export function HomeOneChromeFooter() {
                 <div className="footer-links">
                   <ul>
                     <li>
-                      <a href="/about">Terms of service</a>
+                      <a href="/terms-conditions">Terms of service</a>
                     </li>
                     <li>
-                      <a href="/about">Privacy policy</a>
-                    </li>
-                    <li>
-                      <a href="/about">cookies</a>
+                      <a href="/privacy-policy">Privacy policy</a>
                     </li>
                   </ul>
                 </div>
