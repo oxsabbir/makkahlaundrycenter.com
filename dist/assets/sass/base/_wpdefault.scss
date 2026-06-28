@@ -335,8 +335,7 @@ ul.wp-block-rss {
 .logged-in {
 
     // .header-layout1:not(.default-header),
-    .sticky-wrapper.sticky,
-    .preloader .th-btn {
+    .sticky-wrapper.sticky {
         top: 32px;
 
         @media (max-width: 782px) {

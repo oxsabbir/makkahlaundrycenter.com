@@ -8,17 +8,6 @@ export function HomeOneChromeBefore() {
       {/* slider drag cursor */}
       {/* <div class="slider-drag-cursor"> DRAG </div> */}
       {/*==============================
-     Preloader
-  ==============================*/}
-      <div className="preloader ">
-        <div className="preloader-inner">
-          <span className="loader">
-            Makkah Laundry
-            <span className="loading-text">Makkah Laundry</span>
-          </span>
-        </div>
-      </div>
-      {/*==============================
     Mobile Menu 
   ============================== */}
       <div className="th-menu-wrapper">

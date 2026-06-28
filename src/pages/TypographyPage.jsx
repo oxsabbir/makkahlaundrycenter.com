@@ -12,17 +12,6 @@ export default function TypographyPage() {
   {/* <div class="cursor-follower"></div> */}
   {/* slider drag cursor */}
   {/* <div class="slider-drag-cursor"> DRAG </div> */}
-  {/*==============================
-     Preloader
-  ==============================*/}
-  <div className="preloader ">
-    <div className="preloader-inner">
-      <span className="loader">
-        Makkah Laundry
-        <span className="loading-text">Makkah Laundry</span>
-      </span>
-    </div>
-  </div>
   <div className="space ">
     <div className="h1 text-center mt-4">Colors</div>
     <div className="container mb-5">
