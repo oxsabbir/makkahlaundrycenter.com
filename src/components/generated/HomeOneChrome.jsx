@@ -19,14 +19,17 @@ export function HomeOneChromeBefore() {
         </div>
       </div>
       {/*==============================
-    Mobile Menu
+    Mobile Menu 
   ============================== */}
       <div className="th-menu-wrapper">
         <div className="th-menu-area text-center">
           <button className="th-menu-toggle">
             <i className="fal fa-times" />
           </button>
-          <div className="mobile-logo">
+          <div
+            style={{ background: "var(--title-color)" }}
+            className="mobile-logo "
+          >
             <a href="/">
               <img
                 src="/assets/img/logo.svg"
@@ -59,7 +62,7 @@ export function HomeOneChromeBefore() {
           </div>
         </div>
       </div>
-      <div className="color-scheme-wrap active">
+      {/* <div className="color-scheme-wrap active">
         <button className="switchIcon">
           <i className="fa-solid fa-palette" />
         </button>
@@ -81,7 +84,7 @@ export function HomeOneChromeBefore() {
             <i className="fa-solid fa-droplet" />
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/*==============================
     Sidemenu
@@ -241,7 +244,7 @@ export function HomeOneChromeHeader() {
                 <ul>
                   <li className=" d-xxl-inline-block">
                     <i className="fa-regular fa-clock" />
-                    Working Hours: Sat to Thu - 8:00am - 10:00pm
+                    We Are Open 24/7
                   </li>
                   <li>
                     <i className="fal fa-envelope" />
@@ -563,7 +566,7 @@ export function HomeOneChromeAfter() {
 			Code End  Here 
 	******************************** */}
       {/* Scroll To Top */}
-      <div className="scroll-top">
+      {/* <div className="scroll-top">
         <svg
           className="progress-circle svg-content"
           width="100%"
@@ -579,7 +582,7 @@ export function HomeOneChromeAfter() {
             }}
           />
         </svg>
-      </div>
+      </div> */}
       {/* Floating WhatsApp Button */}
       <a
         href="https://wa.me/966569385700?text=Hi%20Makkah%20Laundry%20Center!%20I%27d%20like%20to%20inquire%20about%20your%20laundry%20services.%20Please%20share%20details%20and%20preferred%20pickup%20time."
