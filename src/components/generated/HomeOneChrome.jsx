@@ -506,7 +506,7 @@ export function HomeOneChromeFooter() {
                 <div className="widget footer-widget">
                   <h3 className="widget_title">Our Location</h3>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3717.1487!2d39.8262!3d21.4225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDI1JzIxLjAiTiAzOcKwNDknMzQuMiJF!5e0!3m2!1sen!2ssa!4v1"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.1362672351524!2d39.8231667!3d21.418799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c204c82533f16f%3A0xca0cff6480eeca59!2sThe%20Clock%20Towers!5e0!3m2!1sen!2sbd!4v1782852467818!5m2!1sen!2sbd"
                     width="100%"
                     height="220"
                     style={{ border: 0 }}
